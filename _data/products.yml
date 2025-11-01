@@ -428,3 +428,24 @@ Accessories: Often bundled with a protective silicone case and screen protector"
 
 The Samsung Galaxy Tab A9 (Sm-x115) 8.7inch 64GB , WiFi, New, Sealed, like our other offerings comes with the consistant quality our customers have come to expect, another great product from NewRock Wireless."
   image: "images/Samsung Galaxy Tab A9 (Sm-x115) 8.7inch 64GB Cellular, New, Sealed.jpg"
+
+
+- id: 29     #ID MUMBER HERE-CHANGE TO AVOID DUPLICATION
+ name: "Motorola Moto Buds 085 , New , Sealed"
+ category: "Headsets & Earbuds"
+ price: 109.95
+ description: "Black. Specifications - MOTO BUDS 085:
+
+Speaker Driver: 6mm
+Frequency Response Range: 20Hz - 20KHz
+Sensitivity: 91dB ± 3dB
+Impedance: 16 ohm
+Max Power: 16 W
+Playtime: 5 hours on earbuds, 10 hours on charging case
+Connectivity: Bluetooth
+BT Transmitted Frequency and Power: 2.402 - 2.480GHZ
+BT Transmitted Modulation: GFSK
+Operation Distance: >10m
+Charging: USB Type-C connector
+Net Weight: 35g, Gross Weight: 50g "
+ image: "URL OR PATH TO PRODUCT IMAGE HERE"
