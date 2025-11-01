@@ -430,12 +430,11 @@ The Samsung Galaxy Tab A9 (Sm-x115) 8.7inch 64GB , WiFi, New, Sealed, like our o
   image: "images/Samsung Galaxy Tab A9 (Sm-x115) 8.7inch 64GB Cellular, New, Sealed.jpg"
 
 
-- id: 29     #ID MUMBER HERE-CHANGE TO AVOID DUPLICATION
- name: "Motorola Moto Buds 085 , New , Sealed"
- category: "Headsets & Earbuds"
- price: 109.95
- description: "Black. Specifications - MOTO BUDS 085:
-Speaker Driver: 6mm
+ - id: 29       #ID MUMBER HERE-CHANGE TO AVOID DUPLICATION
+  name: "Motorola Moto Buds 085 , New , Sealed "
+  category: "Headsets & Earbuds"
+  price: 109.95
+  description: "Black. Speaker Driver: 6mm
 Frequency Response Range: 20Hz - 20KHz
 Sensitivity: 91dB ± 3dB
 Impedance: 16 ohm
@@ -446,5 +445,7 @@ BT Transmitted Frequency and Power: 2.402 - 2.480GHZ
 BT Transmitted Modulation: GFSK
 Operation Distance: >10m
 Charging: USB Type-C connector
-Net Weight: 35g, Gross Weight:50g"
-image: "images/moto_buds_085__69255.jpg"
+Net Weight: 35g, Gross Weight: 50g"
+  image: "URL OR PATH TO PRODUCT IMAGE HERE"
+
+
