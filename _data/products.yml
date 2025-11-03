@@ -629,16 +629,16 @@ Based on product listings from Motorola and retailers:
  Quick Charge: 3 hours of battery life from 10 minutes charging"
  image: "images/beats_studio_3__32267.jpg"
         
-- id: 39       #ID MUMBER HERE-CHANGE TO AVOID DUPLICATION
-  name: "Beats Solo 3 Wireless Headphone , New ,Sealed"
-  category: "Headsets & Earbud"
-  price: 209.95
-  description: "Black .Key features
-Based on information from retailer websites and reviews, here are some of the Solo3's key features:
-
-Connectivity: Class 1 Bluetooth provides a strong, reliable wireless connection. The Apple W1 chip allows for quick, one-touch pairing with iOS devices and integration with Siri. As of 2025, Android users can also use a fast-pair feature. A 3.5mm RemoteTalk cable is also included for wired listening.
-    Battery life: A single charge provides up to 40 hours of playback time. The Fast Fuel feature provides 3 hours of playback from just a 5-minute charge.
-    Audio: The headphones offer "award-winning Beats sound," with fine-tuned acoustics emphasizing strong bass. They do not feature active noise cancellation (ANC), but their on-ear cushions provide passive noise isolation.
-    Design: The adjustable, cushioned earcups are designed for all-day comfort, and the headphones' foldable design makes them highly portable.
-    Controls: Integrated on-ear controls allow you to take calls, control music, and activate Siri."
-  image: "images/beats_solo_3_headphones__95779.jpg"
+#- - id: 39       #ID MUMBER HERE-CHANGE TO AVOID DUPLICATION
+#-   name: "Beats Solo 3 Wireless Headphone , New ,Sealed"
+#-   category: "Headsets & Earbud"
+#-   price: 209.95
+#-   description: "Black .Key features
+#- Based on information from retailer websites and reviews, here are some of the Solo3's key features:
+#- 
+#- Connectivity: Class 1 Bluetooth provides a strong, reliable wireless connection. The Apple W1 chip allows for quick, one-touch pairing with iOS devices and integration with Siri. As of 2025, Android users can also use a fast-pair feature. A 3.5mm RemoteTalk cable is also included for wired listening.
+#-     Battery life: A single charge provides up to 40 hours of playback time. The Fast Fuel feature provides 3 hours of playback from just a 5-minute charge.
+#-     Audio: The headphones offer "award-winning Beats sound," with fine-tuned acoustics emphasizing strong bass. They do not feature active noise cancellation (ANC), but their on-ear cushions provide passive noise isolation.
+#-     Design: The adjustable, cushioned earcups are designed for all-day comfort, and the headphones' foldable design makes them highly portable.
+#-     Controls: Integrated on-ear controls allow you to take calls, control music, and activate Siri."
+#-   image: "images/beats_solo_3_headphones__95779.jpg"
