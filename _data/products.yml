@@ -586,49 +586,49 @@ Based on product listings from Motorola and retailers:
     Compatibility: Works with any device that has a 3.5mm audio jack"
   image: "images/moto_xt120_headphone__90668.jpg"
 
- id: 38      #ID MUMBER HERE-CHANGE TO AVOID DUPLICATION
-  name: "Beats Studio 3 Wireless Headphones , New , Sealed"
-  category: "Headsets & Earbud"
-  price: 239.95
-  description: "Black or Sage Gray. Connectivity:
- Jack: 3.5 mm jack
- Bluetooth: Yes
- Noise Reduction:
- Passive Noise-Isolating: Yes
- Active Noise-Cancelling: Yes
- General:
- Manufacturer’s Guarantee: 1 year
- Box Contents:
- Beats Studio 3 Wireless Bluetooth Noise-Cancelling Headphones
- Carrying case
- 3.5 mm RemoteTalk cable
- Universal USB charging cable (USB-A to USB Micro-B)
- Quick start guide
- Weight: 260 g
- Overview:
- Type: Over-ear
- Color: Matte black
- Design Features:
- Acoustic System: Closed
- Detachable cable: Yes
- Single-sided cable: Yes
- Foldable: Yes
- Other Features:
- LED fuel gauge
- Controls
- Microphone: Yes
- Playback / Functions Control: Yes
- Control Positioning: Earcup
- Volume Control: Yes
- Control Compatibility: All smartphones
- Power:
- Battery Life
- With ANC on: Up to 22 hours
- With ANC off: Up to 40 hours
- Battery: Yes, internal rechargeable battery
- Quick Charge: 3 hours of battery life from 10 minutes charging"
- image: "images/beats_studio_3__32267.jpg"
-        
+#-  id: 38      #ID MUMBER HERE-CHANGE TO AVOID DUPLICATION
+#-   name: "Beats Studio 3 Wireless Headphones , New , Sealed"
+#-   category: "Headsets & Earbud"
+#-   price: 239.95
+#-   description: "Black or Sage Gray. Connectivity:
+#-  Jack: 3.5 mm jack
+#-  Bluetooth: Yes
+#-  Noise Reduction:
+#-  Passive Noise-Isolating: Yes
+#-  Active Noise-Cancelling: Yes
+#-  General:
+#-  Manufacturer’s Guarantee: 1 year
+#-  Box Contents:
+#-  Beats Studio 3 Wireless Bluetooth Noise-Cancelling Headphones
+#-  Carrying case
+#-  3.5 mm RemoteTalk cable
+#-  Universal USB charging cable (USB-A to USB Micro-B)
+#-  Quick start guide
+#-  Weight: 260 g
+#-  Overview:
+#-  Type: Over-ear
+#-  Color: Matte black
+#-  Design Features:
+#-  Acoustic System: Closed
+#-  Detachable cable: Yes
+#-  Single-sided cable: Yes
+#-  Foldable: Yes
+#-  Other Features:
+#-  LED fuel gauge
+#-  Controls
+#-  Microphone: Yes
+#-  Playback / Functions Control: Yes
+#-  Control Positioning: Earcup
+#-  Volume Control: Yes
+#-  Control Compatibility: All smartphones
+#-  Power:
+#-  Battery Life
+#-  With ANC on: Up to 22 hours
+#-  With ANC off: Up to 40 hours
+#-  Battery: Yes, internal rechargeable battery
+#-  Quick Charge: 3 hours of battery life from 10 minutes charging"
+#-  image: "images/beats_studio_3__32267.jpg"
+#-         
 #- - id: 39       #ID MUMBER HERE-CHANGE TO AVOID DUPLICATION
 #-   name: "Beats Solo 3 Wireless Headphone , New ,Sealed"
 #-   category: "Headsets & Earbud"
