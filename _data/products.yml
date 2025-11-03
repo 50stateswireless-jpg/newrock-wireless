@@ -462,3 +462,55 @@ The Samsung Galaxy Tab A9 (Sm-x115) 8.7inch 64GB , WiFi, New, Sealed, like our o
     Controls: Buttons on the earcup to manage sound, calls, and voice assistants"
   image: "images/1597d1ab-957a-4836-a45e-6cc8c55cbc64.60109ef08c2323b4865ecda774e0fbd3.webp"
   
+
+- id: 31       #ID MUMBER HERE-CHANGE TO AVOID DUPLICATION
+  name: "JBL Tune 500 Wired On-Ear Headphones, New , Sealed"
+  category: "Headsets & Earbud"
+  price: 99.95
+  description: "Black or Blue
+General Specifications
+
+Driver size (mm)
+    32.0 
+Number of Microphones
+    1 
+
+Audio Specifications
+
+Driver sensitivity at 1kHz/1mW (dB)
+    1kHz - 24dBV/Pa 
+Dynamic frequency response range (Hz)
+    20 Hz - 20 kHz 
+Impedance (ohms)
+    32.0 
+Number of drivers per ear
+    1.0 
+
+Dimensions
+
+Headphone cable length (cm)
+    118.7 
+Headphone cable length (ft)
+    3.89 
+Weight (g)
+    148 
+Weight (oz)
+    5.44 
+
+Features
+
+Foldable
+    Yes 
+Voice Assistant integration
+    Yes 
+Built-in Microphone
+    Yes 
+Flat-fold design
+    Yes 
+Hands Free Call
+    Yes 
+JBL Pure Bass Sound
+    Yes 
+On-ear
+    Ye "
+  image: "URL OR PATH TO PRODUCT IMAGE HERE"
