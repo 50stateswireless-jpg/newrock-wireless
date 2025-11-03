@@ -579,3 +579,19 @@ offers the following features:
     Charging time: Charges fully in approximately 2 hours.
     Colors: Jet Black and Titanium White."
   image: "images/motorola_xt500_headphone_1__69767.jpg"
+
+
+- id: 36       #ID MUMBER HERE-CHANGE TO AVOID DUPLICATION
+  name: "Motorola XT120 Over Ear Headphone , New , Sealed"
+  category: "Headsets & Earbud"
+  price: 109.95
+  description: "White or Black.Key specifications
+Based on product listings from Motorola and retailers: 
+
+    Audio drivers: 40mm high-definition drivers deliver impressive sound quality with powerful bass.
+    Connectivity: Features a 3.5mm cord with a built-in microphone and in-line controls for calls and music playback.
+    Passive noise isolation: The cushioned, over-ear design helps block out ambient sounds.
+    Design: A foldable, lightweight build makes the headphones compact and easy to carry while traveling.
+    Colors: Available in Jet Black and Titanium White.
+    Compatibility: Works with any device that has a 3.5mm audio jack"
+  image: "URL OR PATH TO PRODUCT IMAGE HERE"
