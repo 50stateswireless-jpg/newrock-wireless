@@ -227,7 +227,6 @@ Active Noise Cancelling with Smart Ambient: Hear more of what you want, less of 
     # minStock: true/false
       image: "images/Apple-iPad-A16-11th-Gen-Pink.jpeg"
 
-
 - id: 18       #ID MUMBER HERE-CHANGE TO AVOID DUPLICATION
   name: "Soundcore P30i, By Anker Earbuds , New ,Sealed"
   category: "Headsets & Earbud"
@@ -362,7 +361,6 @@ Memory: 6GB RAM, 64GB internal storage, Micro SD support up to 512GB."
         Negative: Other users report issues with battery life, random shutdowns, and connectivity problems, particularly in areas with competing Wi-Fi 6 devices. There have also been complaints about faulty batteries and difficulty obtaining replacements"
   image: "images/Tab10_new_2520x.jpg"
 
-
 - id: 26       #ID MUMBER HERE-CHANGE TO AVOID DUPLICATION
   name: "Logic Z1L Flip Phone , 4G , Dual Sim , Unlocked , New , Sealed"
   category: "Phone"
@@ -443,7 +441,6 @@ The Samsung Galaxy Tab A9 (Sm-x115) 8.7inch 64GB , WiFi, New, Sealed, like our o
   description: "Black or White.Anker soundcore P25i Earbuds Key Specifications: Wireless Connectivity: Bluetooth True Wireless:Yes Headphone Fit: In-Ear Battery Life: 30 hours General Product Name: Anker P25i True Wireless In-Ear Headphones Brand: Soundcore Model Number: A3949Z11 Color: Black Sound Isolating: Yes Wireless Connectivity: Bluetooth True Wireless: Yes Bluetooth Version: 5.3 Design: Anker soundcore P25i Earbuds Key Specifications: Wireless Connectivity: Bluetooth True Wireless:Yes Headphone Fit: In-Ear Battery Life: 30 hours General Product Name: Anker P25i True Wireless In-Ear Headphones Brand: Soundcore Model Number: A3949Z11 Color: Black Sound Isolating: Yes Wireless Connectivity: Bluetooth True Wireless: Yes Bluetooth Version: 5.3 Design: Headphone Fit: In-Ear Rechargeable: Yes Battery Life: 30 hours Battery Life Provided by Charging Case: 20 hours Fast Charging: Yes Rechargeable: Yes Battery Life: 30 hours Battery Life Provided by Charging Case: 20 hours Fast Charging: Yes"
   image: "images/Anker-Soundcore-P25i-Earbuds.jpg"
 
-
 - id: 31      #ID MUMBER HERE-CHANGE TO AVOID DUPLICATION
   name: "JBL Tune 710BT Over Ear Bluetooth Headphones, New ,Sealed"
   category: "Headsets & Earbud"
@@ -462,7 +459,6 @@ The Samsung Galaxy Tab A9 (Sm-x115) 8.7inch 64GB , WiFi, New, Sealed, like our o
     Controls: Buttons on the earcup to manage sound, calls, and voice assistants"
   image: "images/1597d1ab-957a-4836-a45e-6cc8c55cbc64.60109ef08c2323b4865ecda774e0fbd3.webp"
   
-
 - id: 32       #ID MUMBER HERE-CHANGE TO AVOID DUPLICATION
   name: "JBL Tune 500 Wired On-Ear Headphones, New , Sealed"
   category: "Headsets & Earbud"
@@ -512,9 +508,8 @@ Hands Free Call
 JBL Pure Bass Sound
     Yes 
 On-ear
-    Ye "
+    Ye"
   image: "images/1_82729c23-93f2-489f-b450-ce3a35399185.webp"
-
 
 - id: 32       #ID MUMBER HERE-CHANGE TO AVOID DUPLICATION
   name: "JBL Tune 520BT Bluetooth Wireless On-Ear Headphones ,New ,Sealed"
@@ -526,7 +521,6 @@ Wireless Bluetooth 5.3 technology: Wirelessly stream high-quality sound from you
 Customize your listening experience: Download the free JBL Headphones App to tailor the sound to your taste with the EQ. Voice prompts in your desired language guide you through the Tune 520BT features.  DESCRIPTION HERE"
   image: "images/jbl_tune_520_headphones__00469.jpg"
       
-
 - id: 33       #ID MUMBER HERE-CHANGE TO AVOID DUPLICATION
   name: "JBL Tune 670NC Headphones , New , Sealed"
   category: "Headsets & Earbud"
@@ -541,12 +535,11 @@ Customize your listening experience: Download the free JBL Headphones App to tai
     Customize your listening experience"
   image: "images/jbl_tune_670_nc_purple__42620.jpg"
 
-
 - id: 34       #ID MUMBER HERE-CHANGE TO AVOID DUPLICATION
   name: "Motorola XT220 over-ear Headphones , New , Sealed"
   category: "Headsets & Earbud"
   price: 109.95
-  description: " Black or White. Features and specifications
+  description: "Black or White. Features and specifications
 According to Motorola Sound and product manuals: 
 
     Audio drivers: 40mm drivers deliver dynamic bass.
@@ -559,8 +552,6 @@ According to Motorola Sound and product manuals:
     Colors: Available in Black, White, and Red.
     Controls: 3-button control for managing music and calls."
   image: "images/71WhD2O-7lL.jpg"
-
-
 
 - id: 35      #ID MUMBER HERE-CHANGE TO AVOID DUPLICATION
   name: Motorola XT500+ over-ear Headphones , New , Sealed"
@@ -580,7 +571,6 @@ offers the following features:
     Colors: Jet Black and Titanium White."
   image: "images/motorola_xt500_headphone_1__69767.jpg"
 
-
 - id: 36       #ID MUMBER HERE-CHANGE TO AVOID DUPLICATION
   name: "Motorola XT120 Over Ear Headphone , New , Sealed"
   category: "Headsets & Earbud"
@@ -595,7 +585,6 @@ Based on product listings from Motorola and retailers:
     Colors: Available in Jet Black and Titanium White.
     Compatibility: Works with any device that has a 3.5mm audio jack"
   image: "images/moto_xt120_headphone__90668.jpg"
-
 
  id: 37      #ID MUMBER HERE-CHANGE TO AVOID DUPLICATION
   name: "Beats Studio 3 Wireless Headphones , New , Sealed"
@@ -640,7 +629,6 @@ Based on product listings from Motorola and retailers:
  Quick Charge: 3 hours of battery life from 10 minutes charging"
  image: "images/beats_studio_3__32267.jpg"
         
-
 - id: 37       #ID MUMBER HERE-CHANGE TO AVOID DUPLICATION
   name: "Beats Solo 3 Wireless Headphone , New ,Sealed"
   category: "Headsets & Earbud"
