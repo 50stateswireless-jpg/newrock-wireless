@@ -54,12 +54,10 @@ pluralizeCategory: (category) => {
     'Part': 'Parts',
     'WiFi': 'WiFi Plans',          // or just "WiFi"
     'Internet Service': 'Internet Services'
-    'Smart Watches': 'Smart Watches',
-    'Headsets & Earbuds': 'Headsets & Earbuds',
-       // Add more as needed
+    // Add more as needed
   };
   return exceptions[category] || category + 's';
-},  
+},
 getProductDisplayName(productId) {
   for (const product of this.rawProducts) {
     if (product.id === productId) return product.name;
