@@ -443,30 +443,22 @@ The Samsung Galaxy Tab A9 (Sm-x115) 8.7inch 64GB , WiFi, New, Sealed, like our o
   description: "Black or White.Anker soundcore P25i Earbuds Key Specifications: Wireless Connectivity: Bluetooth True Wireless:Yes Headphone Fit: In-Ear Battery Life: 30 hours General Product Name: Anker P25i True Wireless In-Ear Headphones Brand: Soundcore Model Number: A3949Z11 Color: Black Sound Isolating: Yes Wireless Connectivity: Bluetooth True Wireless: Yes Bluetooth Version: 5.3 Design: Anker soundcore P25i Earbuds Key Specifications: Wireless Connectivity: Bluetooth True Wireless:Yes Headphone Fit: In-Ear Battery Life: 30 hours General Product Name: Anker P25i True Wireless In-Ear Headphones Brand: Soundcore Model Number: A3949Z11 Color: Black Sound Isolating: Yes Wireless Connectivity: Bluetooth True Wireless: Yes Bluetooth Version: 5.3 Design: Headphone Fit: In-Ear Rechargeable: Yes Battery Life: 30 hours Battery Life Provided by Charging Case: 20 hours Fast Charging: Yes Rechargeable: Yes Battery Life: 30 hours Battery Life Provided by Charging Case: 20 hours Fast Charging: Yes"
   image: "images/Anker-Soundcore-P25i-Earbuds.jpg"
 
+
 - id: 31      #ID MUMBER HERE-CHANGE TO AVOID DUPLICATION
-  name: "Motorola Moto Buds Charge, New , Sealed"
+  name: "JBL Tune 710BT Over Ear Bluetooth Headphones, New ,Sealed"
   category: "Headsets & Earbud"
-  price: 109.95
-  description: "Black. Key Features
-10H PLAYTIME
-Up to 10 hours of playtime (5 hours in the earbuds and an additional 5 hours in the case)
+  price: 149.95
+  description: "Black. JBL's official product page, here are the technical specifications for the Tune 710BT headphones: 
 
-TOUCH CONTROL
-Convenient touch controls on both earbuds
-
-WATER RESISTANT
-IPX5 water resistance for added durability
-
-HANDSFREE CALLS
-Built-in microphone for hassle-free handsfree calls
-
-MONO BLUETOOTH HEADSET MODE
-Utilize either earbud as a mono Bluetooth headset
-
-Technical Specifications
-Color: Jet black and Titanium white
-Connectivity: Bluetooth; Maximum range up to 10m
-Warranty: One year
-Speaker driver: 5.6mm
-Charging time: 2 hours"
-#  image: "images/moto_buds_charge__13100.jpg"
+    Driver size: 40mm Dynamic Driver
+    Weight: 220g
+    Frequency response: 20Hz – 20kHz
+    Impedance: 32 ohm
+    Battery: Up to 50 hours of music playtime; a 2-hour recharge fully charges the battery, and a 5-minute charge provides 3 extra hours of listening.
+    Connectivity: Bluetooth 5.0 and a detachable 3.5mm audio cable.
+    Multi-point connection: Yes.
+    Microphone: Integrated, for hands-free calls and voice assistants.
+    Noise cancellation: Passive only (no Active Noise Cancellation).
+    Controls: Buttons on the earcup to manage sound, calls, and voice assistants"
+  image: "URL OR PATH TO PRODUCT IMAGE HERE"
+  
