@@ -41,6 +41,25 @@ rawProducts.forEach(product => {
 
 const app = {
 // Helper to get display name for toast messages
+// Inside your `app = { ... }` object:
+pluralizeCategory: (category) => {
+  // Customize categories that should NOT just add "s"
+  const exceptions = {
+    'Watch': 'Watch',      // ← Keep as singular
+    'Watches': 'Watches',  // in case you ever use this
+    'Plan': 'Plans',       // default behavior (just for clarity)
+    'Phone': 'Phones',
+    'Tablet': 'Tablets',
+    'Computer': 'Computers',
+    'Part': 'Parts',
+    'WiFi': 'WiFi Plans',          // or just "WiFi"
+    'Internet Service': 'Internet Services'
+    'Smart Watches': 'Smart Watches',
+    'Headsets & Earbuds': 'Headsets & Earbuds',
+       // Add more as needed
+  };
+  return exceptions[category] || category + 's';
+},  
 getProductDisplayName(productId) {
   for (const product of this.rawProducts) {
     if (product.id === productId) return product.name;
@@ -112,7 +131,11 @@ html += `
       : app.products;
 
     if (app.filterCategory) {
-      html += `<h2 class="text-3xl font-bold text-gray-800 mb-6">${app.filterCategory}s</h2>`;
+      // Replace this:
+// html += `<h2 class="text-3xl font-bold text-gray-800 mb-6">${app.filterCategory}s</h2>`;
+
+// With this:
+html += `<h2 class="text-3xl font-bold text-gray-800 mb-6">${app.pluralizeCategory(app.filterCategory)}</h2>`;
     } else {
       html += `<h2 class="text-3xl font-bold text-gray-800 mb-6">Featured Products</h2>`;
     }
