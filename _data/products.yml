@@ -526,4 +526,10 @@ Wireless Bluetooth 5.3 technology: Wirelessly stream high-quality sound from you
 Customize your listening experience: Download the free JBL Headphones App to tailor the sound to your taste with the EQ. Voice prompts in your desired language guide you through the Tune 520BT features.  DESCRIPTION HERE"
   image: "images/jbl_tune_520_headphones__00469.jpg"
       
-        
+
+- id: 33       #ID MUMBER HERE-CHANGE TO AVOID DUPLICATION
+  name: "JBL Tune 670NC Headphones , New , Sealed"
+  category: "Headsets & Earbud"
+  price: 159.95
+  description: "DESCRIPTION HERE"
+  image: "URL OR PATH TO PRODUCT IMAGE HERE"
