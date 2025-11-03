@@ -540,3 +540,22 @@ Customize your listening experience: Download the free JBL Headphones App to tai
     JBL Tune 670NC headphones feature renowned JBL Pure Bass sound—the same that powers the most famous music venues all around the world.
     Customize your listening experience"
   image: "images/jbl_tune_670_nc_purple__42620.jpg"
+
+
+- id: 34       #ID MUMBER HERE-CHANGE TO AVOID DUPLICATION
+  name: "Motorola XT220 over-ear Headphones , New , Sealed"
+  category: "Headsets & Earbud"
+  price: 109.95
+  description: " Black or White. Features and specifications
+According to Motorola Sound and product manuals: 
+
+    Audio drivers: 40mm drivers deliver dynamic bass.
+    Noise isolation: Features passive noise isolation.
+    Connectivity: Bluetooth and a detachable 3.5mm audio cable for wired use.
+    Playtime: Up to 24 hours of wireless playtime.
+    Charging: Recharges via a micro-USB cable in about 2 hours.
+    Microphone: Built-in for hands-free calls.
+    Design: Ergonomic, comfortable, and foldable for easy transport.
+    Colors: Available in Black, White, and Red.
+    Controls: 3-button control for managing music and calls. "
+  image: "URL OR PATH TO PRODUCT IMAGE HERE"
