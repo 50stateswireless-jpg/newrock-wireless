@@ -803,5 +803,21 @@ Colors: The standard iPhone 15 is available in a variety of colors, including Bl
     allows audio playback through its speakers and features voice isolation during calls to reduce background noise."
   image: "images/series_10_watch_46mm__08956.jpg"
 
-          
+
+
+
+- id: 5       #ID MUMBER HERE-CHANGE TO AVOID DUPLICATION
+  name: "Apple Watch Series 9, 41mm , New , Sealed "
+  category: "Smart Watche"
+  price: 459.95
+  description: "Midnight , Silver. Key features and specs
+
+    Performance: Powered by the S9 SiP chip with a 64-bit dual-core processor and a 4-core Neural Engine, which enables faster performance and on-device Siri processing.
+    Display: Features an Always-On Retina LTPO OLED display with a peak brightness of 2000 nits, which is double that of the Series 8.
+    Unique gesture: The Double Tap gesture allows users to answer calls, stop timers, and perform other actions by tapping their thumb and index finger together.
+    Health and wellness: Includes an electrical heart sensor, third-generation optical heart sensor, Blood Oxygen app, ECG app, Cycle Tracking with retrospective ovulation estimates, and temperature sensing.
+    Safety features: Comes with Emergency SOS, International Emergency Calling, Crash Detection, and Fall Detection.
+    Connectivity: Supports GPS, cellular (optional), Wi-Fi, Bluetooth 5.3, and features a second-generation Ultra Wideband chip for Precision Finding of the iPhone 15 family.
+    Battery life: Offers up to 18 hours of typical use or 36 hours in Low Power Mode on a single charge."
+  image: "URL OR PATH TO PRODUCT IMAGE HERE"
       
