@@ -677,8 +677,8 @@ Slim
 Dual USB
 Charge 2 devices at once
 Up to 75 extra hours
-Battery life indicator "
-  image: "images/Chargeworx-Power Bank-charger-Slim-10000-Mah .jpeg"
+Battery life indicator"
+  image: "images/Chargeworx-Power-Bank-charger-Slim-10000-Mah.jpeg"
 
 - id: 43       #ID MUMBER HERE-CHANGE TO AVOID DUPLICATION
   name: "Power Bank Solar charger Roc16"
