@@ -641,3 +641,19 @@ Based on product listings from Motorola and retailers:
     Design: The adjustable, cushioned earcups are designed for all-day comfort, and the headphones foldable design makes them highly portable.
     Controls: Integrated on-ear controls allow you to take calls, control music, and activate Siri."
   image: "images/beats_solo_3_headphones__95779.jpg"
+
+- id: 40       #ID MUMBER HERE-CHANGE TO AVOID DUPLICATION
+  name: "ADATA POWER BANK CHARGER ,20000 Mah , New , Sealed"
+  category: "Charger"
+  price: 119.95
+  description: "Features 
+Blue , Red , Green
+    Charging technology: Supports Qualcomm Quick Charge 3.0 and USB Power Delivery 3.0.
+    Ports: One USB-C port and two USB-A ports.
+    Simultaneous charging: Can charge three devices at the same time.
+    Power output: Delivers up to 18W output via USB-A and USB-C ports. The maximum total output when all three ports are in use is 15W.
+    Digital display: Shows the remaining battery percentage.
+    Safety features: Includes protection against over-charging, over-discharging, over-temperature, short-circuiting, over-voltage, and over-current.
+    Bidirectional charging: The USB-C port can be used to charge both the power bank and other USB-C devices.
+    Recharge input: The power bank can be recharged via the USB-C port or a micro-USB port."
+  image: "images/P20000QCD_Power_Bank_b__39361.jpg"
