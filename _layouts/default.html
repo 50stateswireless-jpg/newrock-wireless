@@ -54,6 +54,7 @@ pluralizeCategory: (category) => {
     'Part': 'Parts',
     'WiFi': 'WiFi Plans',          // or just "WiFi"
     'Internet Service': 'Internet Services'
+    'Chargers': 'Chargers',
     // Add more as needed
   };
   return exceptions[category] || category + 's';
@@ -103,6 +104,9 @@ getProductDisplayName(productId) {
           </button>
           <button onclick="app.setView('home', 'Smart Watche')" class="inline-flex items-center justify-center px-6 py-3 border border-transparent text-base font-medium rounded-full text-white bg-red-600 hover:bg-red-700 transition duration-150 shadow-lg">
             Shop Smart Watches
+          </button>
+          <button onclick="app.setView('home', 'Charger')" class="inline-flex items-center justify-center px-6 py-3 border border-transparent text-base font-medium rounded-full text-white bg-red-600 hover:bg-red-700 transition duration-150 shadow-lg">
+            Shop Chargers
           </button>
         </div>
       </div>
