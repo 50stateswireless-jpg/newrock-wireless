@@ -824,7 +824,7 @@ Colors: The standard iPhone 15 is available in a variety of colors, including Bl
 
 
 - id: 51       #ID MUMBER HERE-CHANGE TO AVOID DUPLICATION
-  name: "Apple Watch Series 9, 45mm , New , Sealed "
+  name: "Apple Watch Series 9, 45mm , New , Sealed"
   category: "Smart Watche"
   price: 479.95
   description: "Midnight , Silver. Key features and specs
@@ -835,5 +835,5 @@ Colors: The standard iPhone 15 is available in a variety of colors, including Bl
     Health and wellness: Includes an electrical heart sensor, third-generation optical heart sensor, Blood Oxygen app, ECG app, Cycle Tracking with retrospective ovulation estimates, and temperature sensing.
     Safety features: Comes with Emergency SOS, International Emergency Calling, Crash Detection, and Fall Detection.
     Connectivity: Supports GPS, cellular (optional), Wi-Fi, Bluetooth 5.3, and features a second-generation Ultra Wideband chip for Precision Finding of the iPhone 15 family.
-    Battery life: Offers up to 18 hours of typical use or 36 hours in Low Power Mode on a single charge.""
+    Battery life: Offers up to 18 hours of typical use or 36 hours in Low Power Mode on a single charge."
   image: "images/series_9_midnight__52347.jpg"
