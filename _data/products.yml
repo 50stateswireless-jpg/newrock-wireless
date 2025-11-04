@@ -727,3 +727,21 @@ Processor: The phone is powered by the A16 Bionic chip with a 5-core GPU, which 
 Port: The iPhone 15 includes a USB-C port for charging and data transfer, replacing the proprietary Lightning port.
 Colors: The standard iPhone 15 is available in a variety of colors, including Black, Blue, Green, Yellow, and Pink."
   image: "images/Apple-iPhone-15-lineup-hero-230912-scaled.jpg"
+
+
+- id: 46       #ID MUMBER HERE-CHANGE TO AVOID DUPLICATION
+  name: "iPhone 16 Plus ,128GB , E-Sim ,Unlocked , New , Sealed"
+  category: "Phone"
+  price: 899.95
+  description: "Black. Key specs of the iPhone 16 Plus
+
+    Display: 6.7-inch OLED Super Retina XDR with Dynamic Island.
+    Processor: A18 chip.
+    Camera System: Dual-camera system with a 48MP main camera and an improved Ultra Wide camera with autofocus.
+    Connectivity: 5G support, Wi-Fi 7, and USB-C port.
+    SIM Compatibility: Exclusively uses eSIM (no physical SIM card tray in US models).
+    Operating System: iOS 18.
+    Features: Includes the new Action button and is built for Apple Intelligence.
+    Storage: 128GB.
+    Colors: Available in black, ultramarine blue, pink, teal, and white."
+  image: "URL OR PATH TO PRODUCT IMAGE HERE"
