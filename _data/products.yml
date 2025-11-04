@@ -678,4 +678,39 @@ Dual USB
 Charge 2 devices at once
 Up to 75 extra hours
 Battery life indicator "
-  image: "images/images.jpeg"
+  image: "images/Chargeworx-Power Bank-charger-Slim-10000-Mah .jpeg"
+
+- id: 43       #ID MUMBER HERE-CHANGE TO AVOID DUPLICATION
+  name: "Power Bank Solar charger Roc16"
+  category: "Charger"
+  price: 119.95
+  description: "Tough Tested
+16000mAh
+Wireless Charger
+Waterproof
+3 charging ports
+High output multi-mode flashlight
+New , Sealed"
+  image: "images/power_bank_solar_roc16__42691.jpg"
+
+- id: 44       #ID MUMBER HERE-CHANGE TO AVOID DUPLICATION
+  name: "VERIZON Wireless charger combo pack , 6,000mAh , New ,Sealed"
+  category: "Charger"
+  price: 109.95
+  description: "black, Verizon Wireless Charger USB-C Combo Pack
+This modern bundle is compatible with newer smartphones, including Apple iPhone 15/16 and Samsung Galaxy models.
+What's included: 
+VERIZON Wireless charger combo pack 6,000mAh
+    Car charger: Features a fixed coiled 6-ft cable and a USB-C connector.
+    Qi wireless charger: Comes with a fast-charge wall adapter and a 5-ft charge/sync cable.
+    Portable power bank: Includes a 1.6-ft USB-A to USB-C charging cable.
+    USB-C cable: An 8-in charge/sync cable with a USB-C to USB-C connector.
+This modern bundle is compatible with newer smartphones, including Apple iPhone 15/16 and Samsung Galaxy models. 
+
+What's included: 
+
+    Car charger: Features a fixed coiled 6-ft cable and a USB-C connector.
+    Qi wireless charger: Comes with a fast-charge wall adapter and a 5-ft charge/sync cable.
+    Portable power bank: Includes a 1.6-ft USB-A to USB-C charging cable.
+    USB-C cable: An 8-in charge/sync cable with a USB-C to USB-C connector"
+  image: "images/verizon-ACCS-722828-Portable-Charger-PRODUCT.webp"
