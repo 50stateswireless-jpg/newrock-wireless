@@ -694,7 +694,7 @@ New , Sealed"
   image: "images/power_bank_solar_roc16__42691.jpg"
 
 - id: 44       #ID MUMBER HERE-CHANGE TO AVOID DUPLICATION
-  name: "VERIZON Wireless charger combo pack , 6,000mAh , New ,Sealed"
+  name: "Verizon Wireless charger combo pack , 6,000mAh , New ,Sealed"
   category: "Charger"
   price: 109.95
   description: "black, Verizon Wireless Charger USB-C Combo Pack
@@ -714,3 +714,16 @@ What's included:
     Portable power bank: Includes a 1.6-ft USB-A to USB-C charging cable.
     USB-C cable: An 8-in charge/sync cable with a USB-C to USB-C connector"
   image: "images/verizon-ACCS-722828-Portable-Charger-PRODUCT.webp"
+
+
+
+- id: 45      #ID MUMBER HERE-CHANGE TO AVOID DUPLICATION
+  name: "iPhone 15 ,128GB , E-Sim ,Unlocked , New , Sealed"
+  category: "Phone"
+  price: 799.95
+  description: " Black, Blue, Green, Yellow, and Pink . Display: 6.1-inch Super Retina XDR (OLED) display with a 2556‑by‑1179-pixel resolution. It features the Dynamic Island, which dynamically expands to show important alerts.
+Camera system: It has an advanced dual-camera system with a 48-megapixel main camera and a 12-megapixel ultra-wide camera. The main camera supports 2x optical zoom and captures super-high-resolution photos.
+Processor: The phone is powered by the A16 Bionic chip with a 5-core GPU, which was previously used in the iPhone 14 Pro.
+Port: The iPhone 15 includes a USB-C port for charging and data transfer, replacing the proprietary Lightning port.
+Colors: The standard iPhone 15 is available in a variety of colors, including Black, Blue, Green, Yellow, and Pink."
+  image: "URL OR PATH TO PRODUCT IMAGE HERE"
