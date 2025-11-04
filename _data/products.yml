@@ -784,6 +784,24 @@ Colors: The standard iPhone 15 is available in a variety of colors, including Bl
 
 
 
+- id: 49       #ID MUMBER HERE-CHANGE TO AVOID DUPLICATION
+  name: "Apple Watch Series 10 , 42mm , New , Sealed "
+  category: "Smart Watch"
+  price: 499.95
+  description: "Black. Key features
+
+    Larger, brighter display: The Series 10
+    has a bigger and more advanced wide-angle OLED display that provides more screen area and is up to 40% brighter when viewed from an angle compared to the Series 9.
+    Thinner design: The Series 10
+    is almost 10% thinner than the Series 9, and the aluminum and titanium cases are lighter. The antenna is also integrated into the housing for a more seamless look.
+    Faster charging: The redesigned charging system can charge the battery to 80% in about 30 minutes. An 8-minute charge can provide enough power for up to 8 hours of sleep tracking.
+    New health features: The S10 SiP, with its 4-core Neural Engine, enables a new sleep apnea notification feature that monitors breathing disturbances. It also has a Vitals app to track key overnight health metrics and alert you to changes.
+    New materials: In addition to aluminum, the Series 10
+    offers a polished titanium case option in new colors.
+    Enhanced aquatic features: New depth and water temperature sensors make the watch an even better tool for swimmers and snorkelers. There's also a new Tides app to track water conditions.
+    Improved audio: The Series 10
+    allows audio playback through its speakers and features voice isolation during calls to reduce background noise."
+  image: "URL OR PATH TO PRODUCT IMAGE HERE"
 
           
       
