@@ -665,3 +665,17 @@ Blue , Red , Green
   description: "colors black , blue                    
 Zone One 5000MAH Power Bank is limited, but a similar product called the Trend Zone Portable Charger Power Bank is available from sellers on eBay. Its basic features include dual-port output, an LED indicator for battery life, and a compact size for portability. For a more comprehensive option, the Anker Nano Power Bank offers 5,000mAh capacity along with enhanced features like a built-in USB-C connector for convenience"
   image: "images/m_wp_6903d13c9f19e231f9911ba8.webp"
+
+- id: 42       #ID MUMBER HERE-CHANGE TO AVOID DUPLICATION
+  name: "Chargeworx Power Bank charger Slim 10000 Mah , new , Sealed"
+  category: "Charger"
+  price: 109.95
+  description: "coloprs , black , blue                                                  
+Chargeworx Power Bank
+Slim
+10000 mAh
+Dual USB
+Charge 2 devices at once
+Up to 75 extra hours
+Battery life indicator "
+  image: "URL OR PATH TO PRODUCT IMAGE HERE"
