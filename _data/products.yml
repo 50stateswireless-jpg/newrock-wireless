@@ -657,3 +657,11 @@ Blue , Red , Green
     Bidirectional charging: The USB-C port can be used to charge both the power bank and other USB-C devices.
     Recharge input: The power bank can be recharged via the USB-C port or a micro-USB port."
   image: "images/P20000QCD_Power_Bank_b__39361.jpg"
+
+- id: 41       #ID MUMBER HERE-CHANGE TO AVOID DUPLICATION
+  name: "Zone One Power Bank , 5000MAH , New , Sealed"
+  category: "Charger"
+  price: 79.95
+  description: "colors black , blue                    
+Zone One 5000MAH Power Bank is limited, but a similar product called the Trend Zone Portable Charger Power Bank is available from sellers on eBay. Its basic features include dual-port output, an LED indicator for battery life, and a compact size for portability. For a more comprehensive option, the Anker Nano Power Bank offers 5,000mAh capacity along with enhanced features like a built-in USB-C connector for convenience"
+  image: "images/m_wp_6903d13c9f19e231f9911ba8.webp"
