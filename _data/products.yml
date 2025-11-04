@@ -643,7 +643,7 @@ Based on product listings from Motorola and retailers:
   image: "images/beats_solo_3_headphones__95779.jpg"
 
 - id: 40       #ID MUMBER HERE-CHANGE TO AVOID DUPLICATION
-  name: "ADATA POWER BANK CHARGER ,20000 Mah , New , Sealed"
+  name: "Adata Power Bank Charger ,20000 Mah , New , Sealed"
   category: "Charger"
   price: 119.95
   description: "Features 
@@ -678,4 +678,4 @@ Dual USB
 Charge 2 devices at once
 Up to 75 extra hours
 Battery life indicator "
-  image: "URL OR PATH TO PRODUCT IMAGE HERE"
+  image: "images/images.jpeg"
