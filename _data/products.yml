@@ -854,4 +854,26 @@ Measure your blood oxygen easily and consistently, day and night, with the blood
 Make secure payments with Apple Pay, and leave your phone behind with the built-in GPS, precisely tracking workouts. Apple Fitness+ offers a wide range of workouts and meditations led by experts, with real-time metrics displayed on your watch.
 Please note that Blood Oxygen app measurements are for fitness and wellness purposes, not medical diagnosis. Manufacturers may update the device's OS over time, potentially providing enhanced features beyond the initial specification. Choose between Bluetooth and cellular connectivity options, depending on your needs."
   image: "images/series_8_midnight__35346.jpg"
-        
+
+
+
+- id: 53       #ID MUMBER HERE-CHANGE TO AVOID DUPLICATION
+  name: "Apple Watch SE , 2nd Generation ,GPS 40mm , New , Sealed "
+  category: "Smart Watche"
+  price: 299.95
+  description: "Midnight or Silver.Key features
+
+   S8 SiP chip: Same processor found in the Apple Watch Series 8, offering smooth and responsive performance.
+    Health and fitness tracking: Includes a second-generation optical heart sensor for high and low heart rate notifications, sleep stage tracking, and cycle tracking.
+    Safety features: Crash Detection and Fall Detection can automatically call emergency services if you are in an accident or take a hard fall.
+    Water resistance: Water resistant up to 50 meters, making it suitable for swimming and other shallow-water activities.
+    Customizable: Supports all Apple Watch bands and features customizable watch faces.
+    Carbon neutral: Certain case and band combinations are carbon neutral. 
+Limitations
+Some key features are exclusive to the more premium Apple Watch models. 
+   No Always-On Display: The screen does not remain visible at all times, which some users prefer.
+    No ECG or blood oxygen monitoring: It lacks the advanced ECG app and Blood Oxygen sensor.
+    No temperature sensing: The temperature sensing feature for advanced cycle tracking is not included.
+    Slower charging: It does not support fast charging like the more expensive models.  "
+  image: "URL OR PATH TO PRODUCT IMAGE HERE"
+
