@@ -837,3 +837,53 @@ Colors: The standard iPhone 15 is available in a variety of colors, including Bl
     Connectivity: Supports GPS, cellular (optional), Wi-Fi, Bluetooth 5.3, and features a second-generation Ultra Wideband chip for Precision Finding of the iPhone 15 family.
     Battery life: Offers up to 18 hours of typical use or 36 hours in Low Power Mode on a single charge."
   image: "images/series_9_midnight__52347.jpg"
+
+- id: 52       #ID MUMBER HERE-CHANGE TO AVOID DUPLICATION
+  name: "Apple Watch Series 8 41mm , WIFI Plus GPS ,New ,Sealed"
+  category: "Smart Watche"
+  price: 469.95
+  description: "Midnight 
+Apple Watch Series 8 New
+41mm
+WIFI Plus GPS 
+Introducing the Apple Watch Series 8, your advanced health companion with even more capabilities. In addition to its existing wellness features, it now includes temperature sensing for deeper insights and Crash Detection for emergency situations. The Sleep app provides comprehensive sleep stage tracking, and the enhanced Workout app automatically detects and monitors your workouts, including blood oxygen and heart rate.
+The Series 8 boasts a striking Always-On Retina display with minimal bezels, ensuring a seamless blend with the case's elegant curvature. Temperature sensing enables cycle tracking, providing insights into your menstrual cycle when combined with heart rate and cycle data.
+The Sleep app goes beyond tracking time asleep, offering insights into REM, Core, and Deep sleep stages. In emergencies, the watch's Crash Detection can connect you with emergency services, sharing your location with dispatchers and notifying your contacts.
+Measure your blood oxygen easily and consistently, day and night, with the blood oxygen sensor. The durable design includes a thick front crystal, robust geometry, and IP6X dust resistance, while its WR50 water resistance makes it perfect for swimming.
+Make secure payments with Apple Pay, and leave your phone behind with the built-in GPS, precisely tracking workouts. Apple Fitness+ offers a wide range of workouts and meditations led by experts, with real-time metrics displayed on your watch.
+Please note that Blood Oxygen app measurements are for fitness and wellness purposes, not medical diagnosis. Manufacturers may update the device's OS over time, potentially providing enhanced features beyond the initial specification. Choose between Bluetooth and cellular connectivity options, depending on your needs"
+  image: "images/series_8_midnight__35346.jpg"
+
+- id: 53       #ID MUMBER HERE-CHANGE TO AVOID DUPLICATION
+  name: "Apple Watch SE , 2nd Generation ,GPS 40mm , New , Sealed"
+  category: "Smart Watche"
+  price: 299.95
+  description: "Midnight or Silver.Key features
+
+   S8 SiP chip: Same processor found in the Apple Watch Series 8, offering smooth and responsive performance.
+    Health and fitness tracking: Includes a second-generation optical heart sensor for high and low heart rate notifications, sleep stage tracking, and cycle tracking.
+    Safety features: Crash Detection and Fall Detection can automatically call emergency services if you are in an accident or take a hard fall.
+    Water resistance: Water resistant up to 50 meters, making it suitable for swimming and other shallow-water activities.
+    Customizable: Supports all Apple Watch bands and features customizable watch faces.
+    Carbon neutral: Certain case and band combinations are carbon neutral. 
+Limitations
+Some key features are exclusive to the more premium Apple Watch models. 
+   No Always-On Display: The screen does not remain visible at all times, which some users prefer.
+    No ECG or blood oxygen monitoring: It lacks the advanced ECG app and Blood Oxygen sensor.
+    No temperature sensing: The temperature sensing feature for advanced cycle tracking is not included.
+    Slower charging: It does not support fast charging like the more expensive models"
+  image: "images/se_2nd_gen_black__39380.jpg"  
+
+- id: 54       #ID MUMBER HERE-CHANGE TO AVOID DUPLICATION
+  name: "Samsung Galaxy A26 ,5G, 6.7-inch 128GB, Latin Spec ,Unlocked , New Sealed"
+  category: "Phone"
+  price: 359.95
+  description: "Mint ,Black ,White .Display: 6.7-inch FHD+ Super AMOLED display with a 120Hz refresh rate for smooth  scrolling and gaming.   
+Performance: Powered by the Exynos 1380 Octa-core processor, providing a fast and smooth experience for browsing, streaming, and gaming.
+Cameras: A versatile triple-lens rear camera system includes a 50MP wide-angle with Optical Image Stabilization (OIS), an 8MP ultrawide, and a 2MP macro lens. The front camera is 13MP.
+Durability: Rated IP67 for water and dust resistance, with Gorilla Glass Victus+ on the front and back.
+Battery and charging: Features a large 5,000mAh battery for all-day use and supports 25W Super Fast Charging.
+Software support: Samsung offers a long-term commitment of six generations of Android OS updates and six years of security updates for this model.
+AI features: Includes "Awesome Intelligence" (AI) tools, such as Circle to Search with Google.
+Design: A slim and stylish design with a glossy glass back"
+  image: "images/Samsung_a26_black__96361.jpg"  
