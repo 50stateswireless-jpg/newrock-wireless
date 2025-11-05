@@ -837,3 +837,21 @@ Colors: The standard iPhone 15 is available in a variety of colors, including Bl
     Connectivity: Supports GPS, cellular (optional), Wi-Fi, Bluetooth 5.3, and features a second-generation Ultra Wideband chip for Precision Finding of the iPhone 15 family.
     Battery life: Offers up to 18 hours of typical use or 36 hours in Low Power Mode on a single charge."
   image: "images/series_9_midnight__52347.jpg"
+
+
+- id: 52       #ID MUMBER HERE-CHANGE TO AVOID DUPLICATION
+  name: "Apple Watch Series 8 41mm , WIFI Plus GPS ,New ,Sealed"
+  category: "Smart Watche"
+  price: 469.95
+  description: "Midnight .
+Apple Watch Series 8 New
+41mm
+WIFI Plus GPS 
+Introducing the Apple Watch Series 8, your advanced health companion with even more capabilities. In addition to its existing wellness features, it now includes temperature sensing for deeper insights and Crash Detection for emergency situations. The Sleep app provides comprehensive sleep stage tracking, and the enhanced Workout app automatically detects and monitors your workouts, including blood oxygen and heart rate.
+The Series 8 boasts a striking Always-On Retina display with minimal bezels, ensuring a seamless blend with the case's elegant curvature. Temperature sensing enables cycle tracking, providing insights into your menstrual cycle when combined with heart rate and cycle data.
+The Sleep app goes beyond tracking time asleep, offering insights into REM, Core, and Deep sleep stages. In emergencies, the watch's Crash Detection can connect you with emergency services, sharing your location with dispatchers and notifying your contacts.
+Measure your blood oxygen easily and consistently, day and night, with the blood oxygen sensor. The durable design includes a thick front crystal, robust geometry, and IP6X dust resistance, while its WR50 water resistance makes it perfect for swimming.
+Make secure payments with Apple Pay, and leave your phone behind with the built-in GPS, precisely tracking workouts. Apple Fitness+ offers a wide range of workouts and meditations led by experts, with real-time metrics displayed on your watch.
+Please note that Blood Oxygen app measurements are for fitness and wellness purposes, not medical diagnosis. Manufacturers may update the device's OS over time, potentially providing enhanced features beyond the initial specification. Choose between Bluetooth and cellular connectivity options, depending on your needs."
+  image: "URL OR PATH TO PRODUCT IMAGE HERE"
+        
