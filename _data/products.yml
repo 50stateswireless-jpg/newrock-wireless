@@ -883,14 +883,14 @@ Colors: The standard iPhone 15 is available in a variety of colors, including Bl
 #  image: "images/Samsung_a26_black__96361.jpg"  
 
 
-- id: 51      #ID MUMBER HERE-CHANGE TO AVOID DUPLICATION
-  name: "ZTE Blade A35 6.7", 4G LTE ,64GB ,Unlocked , New ,Sealed"
-  category: "Phone"
-  price: 209.95
-  description: "Green Processor- The phone is powered by a Unisoc SC9863A1 octa-core processor. According to UL Benchmarks, the Blade A35
-achieved a PCMark Work 3.0 score of 5035, suggesting it is best suited for basic tasks. Some user reviews note that the processor may not be fast enough for more demanding apps or high-performance gaming.
-Operating system: The ZTE Blade A35
-runs on Android 14 Go Edition, a version of Android optimized for devices with entry-level specifications.
-RAM and storage: It comes with 4GB of RAM and 64GB of internal storage. The storage can be expanded using a microSD card.
-Battery: The device includes a 5,000mAh battery with support for 10W charging via a Type-C port. Reviewers praise its fantastic battery life."
-  image: "images/zte_a35_c__53576.jpg"
+#- id: 51      #ID MUMBER HERE-CHANGE TO AVOID DUPLICATION
+#  name: "ZTE Blade A35 6.7", 4G LTE ,64GB ,Unlocked , New ,Sealed"
+#  category: "Phone"
+#  price: 209.95
+#  description: "Green Processor- The phone is powered by a Unisoc SC9863A1 octa-core processor. According to UL Benchmarks, the Blade A35
+#achieved a PCMark Work 3.0 score of 5035, suggesting it is best suited for basic tasks. Some user reviews note that the processor may not be fast enough for more demanding apps or high-performance gaming.
+#Operating system: The ZTE Blade A35
+#runs on Android 14 Go Edition, a version of Android optimized for devices with entry-level specifications.
+#RAM and storage: It comes with 4GB of RAM and 64GB of internal storage. The storage can be expanded using a microSD card.
+#Battery: The device includes a 5,000mAh battery with support for 10W charging via a Type-C port. Reviewers praise its fantastic battery life."
+#  image: "images/zte_a35_c__53576.jpg"
