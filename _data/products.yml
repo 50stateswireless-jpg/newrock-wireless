@@ -4,28 +4,28 @@
 #  price: 45.00
 #  description: "DESCRIPTION HERE"
 #  image: "URL OR PATH TO PRODUCT IMAGE HERE"
-
-#- id: 13    # This entry is just a template for varients below (color picker)
-  #- name: "RockPhone 15 Pro Max"
-  #- category: "Phone"
-  #- description: "Flagship smartphone with triple-lens camera system and A18 Bionic chip."
-  #- variants:
-  #-   - id: 301
-  #-     color: "Blue"
-  #-     price: 999.00
-  #-     inStock: true/false
-  #-    image: "images/bluephone.jpeg"
-  #-   - id: 302
-  #-     color: "Black"
-  #-     price: 999.00
-  #-     inStock: true/false
-  #-     image: "images/blackphone.webp"
-  #-   - id: 303
-  #-     color: "Silver"
-  #-    price: 1049.00  # maybe premium color costs more
-  #-     inStock: true/false
-  #-     image: "images/silverphone.webp"
-
+#
+#- id: 113    # This entry is just a template for varients below (color picker)
+#  -name: "RockPhone 15 Pro Max"
+#  -category: "Phone"
+#  -description: "Flagship smartphone with triple-lens camera system and A18 Bionic chip."
+#  -variants:
+#     - id: 301
+#       color: "Blue"
+#       price: 999.00
+#       inStock: true/false
+#       image: "images/bluephone.jpeg"
+#     - id: 302
+#       color: "Black"
+#       price: 999.00
+#       inStock: true/false
+#       image: "images/blackphone.webp"
+#     - id: 303
+#       color: "Silver"
+#       price: 1049.00  # maybe premium color costs more
+#       inStock: true/false
+#       image: "images/silverphone.webp"
+#
 - id: 1
   name: "Verizon Home Internet 300 Mbps"
   category: "Internet Service"
@@ -820,77 +820,77 @@ Colors: The standard iPhone 15 is available in a variety of colors, including Bl
     Connectivity: Supports GPS, cellular (optional), Wi-Fi, Bluetooth 5.3, and features a second-generation Ultra Wideband chip for Precision Finding of the iPhone 15 family.
     Battery life: Offers up to 18 hours of typical use or 36 hours in Low Power Mode on a single charge."
   image: "images/series_9_midnight__52347.jpg"
-#- id: 51       #ID MUMBER HERE-CHANGE TO AVOID DUPLICATION
-#  name: "Apple Watch Series 9, 45mm , New , Sealed"
-#  category: "Smart Watche"
-#  price: 479.95
-#  description: "Midnight , Silver. Key features and specs
-#
-# #   Performance: Powered by the S9 SiP chip with a 64-bit dual-core processor and a 4-core Neural Engine, which enables faster performance and on-device Siri processing.
-#    Display: Features an Always-On Retina LTPO OLED display with a peak brightness of 2000 nits, which is double that of the Series 8.
-#    Unique gesture: The Double Tap gesture allows users to answer calls, stop timers, and perform other actions by tapping their thumb and index finger together.
-#    Health and wellness: Includes an electrical heart sensor, third-generation optical heart sensor, Blood Oxygen app, ECG app, Cycle Tracking with retrospective ovulation estimates, and temperature sensing.
-#    Safety features: Comes with Emergency SOS, International Emergency Calling, Crash Detection, and Fall Detection.
-#    Connectivity: Supports GPS, cellular (optional), Wi-Fi, Bluetooth 5.3, and features a second-generation Ultra Wideband chip for Precision Finding of the iPhone 15 family.
-#    Battery life: Offers up to 18 hours of typical use or 36 hours in Low Power Mode on a single charge."
-#  image: "images/series_9_midnight__52347.jpg"
-#- id: 52       #ID MUMBER HERE-CHANGE TO AVOID DUPLICATION
-#  name: "Apple Watch Series 8 41mm , WIFI Plus GPS ,New ,Sealed"
-#  category: "Smart Watche"
-#  price: 469.95
-#  description: "Midnight 
-#Apple Watch Series 8 New
-#41mm
-#WIFI Plus GPS 
-#Introducing the Apple Watch Series 8, your advanced health companion with even more capabilities. In addition to its existing wellness features, it now includes temperature sensing for deeper insights and Crash Detection for emergency situations. The Sleep app provides comprehensive sleep stage tracking, and the enhanced Workout app automatically detects and monitors your workouts, including blood oxygen and heart rate.
-##The Sleep app goes beyond tracking time asleep, offering insights into REM, Core, and Deep sleep stages. In emergencies, the watch's Crash Detection can connect you with emergency services, sharing your location with dispatchers and notifying your contacts.
-#Measure your blood oxygen easily and consistently, day and night, with the blood oxygen sensor. The durable design includes a thick front crystal, robust geometry, and IP6X dust resistance, while its WR50 water resistance makes it perfect for swimming.
-#Make secure payments with Apple Pay, and leave your phone behind with the built-in GPS, precisely tracking workouts. Apple Fitness+ offers a wide range of workouts and meditations led by experts, with real-time metrics displayed on your watch.
-#Please note that Blood Oxygen app measurements are for fitness and wellness purposes, not medical diagnosis. Manufacturers may update the device's OS over time, potentially providing enhanced features beyond the initial specification. Choose between Bluetooth and cellular connectivity options, depending on your needs"
-#  image: "images/series_8_midnight__35346.jpg"
+- id: 51       #ID MUMBER HERE-CHANGE TO AVOID DUPLICATION
+  name: "Apple Watch Series 9, 45mm , New , Sealed"
+  category: "Smart Watche"
+  price: 479.95
+  description: "Midnight , Silver. Key features and specs
 
-#- id: 53       #ID MUMBER HERE-CHANGE TO AVOID DUPLICATION
-#  name: "Apple Watch SE , 2nd Generation ,GPS 40mm , New , Sealed"
-#  category: "Smart Watche"
-#  price: 299.95
-#  description: "Midnight or Silver.Key features
-#
-#  S8 SiP chip: Same processor found in the Apple Watch Series 8, offering smooth and responsive performance.
-#    Safety features: Crash Detection and Fall Detection can automatically call emergency services if you are in an accident or take a hard fall.
-#    Water resistance: Water resistant up to 50 meters, making it suitable for swimming and other shallow-water activities.
-#    Customizable: Supports all Apple Watch bands and features customizable watch faces.
-#    Carbon neutral: Certain case and band combinations are carbon neutral. 
-#Limitations
-#Some key features are exclusive to the more premium Apple Watch models. 
-#   No Always-On Display: The screen does not remain visible at all times, which some users prefer.
-#    No ECG or blood oxygen monitoring: It lacks the advanced ECG app and Blood Oxygen sensor.
-#    No temperature sensing: The temperature sensing feature for advanced cycle tracking is not included.
-#    Slower charging: It does not support fast charging like the more expensive models"
-#  image: "images/se_2nd_gen_black__39380.jpg"  
-#
-#- id: 54       #ID MUMBER HERE-CHANGE TO AVOID DUPLICATION
-#  name: "Samsung Galaxy A26 ,5G, 6.7-inch 128GB, Latin Spec ,Unlocked , New Sealed"
-#  category: "Phone"
-#  price: 359.95
-#  description: "Mint ,Black ,White .Display: 6.7-inch FHD+ Super AMOLED display with a 120Hz refresh rate for smooth  scrolling and gaming.   
-#Performance: Powered by the Exynos 1380 Octa-core processor, providing a fast and smooth experience for browsing, streaming, and gaming.
-#Cameras: A versatile triple-lens rear camera system includes a 50MP wide-angle with Optical Image Stabilization (OIS), an 8MP ultrawide, and a 2MP macro lens. The front camera is 13MP.
-#Durability: Rated IP67 for water and dust resistance, with Gorilla Glass Victus+ on the front and back.
-#Battery and charging: Features a large 5,000mAh battery for all-day use and supports 25W Super Fast Charging.
-#Software support: Samsung offers a long-term commitment of six generations of Android OS updates and six years of security updates for this model.
-#AI features: Includes "Awesome Intelligence" (AI) tools, such as Circle to Search with Google.
-#Design: A slim and stylish design with a glossy glass back"
-#  image: "images/Samsung_a26_black__96361.jpg"  
+    Performance: Powered by the S9 SiP chip with a 64-bit dual-core processor and a 4-core Neural Engine, which enables faster performance and on-device Siri processing.
+    Display: Features an Always-On Retina LTPO OLED display with a peak brightness of 2000 nits, which is double that of the Series 8.
+    Unique gesture: The Double Tap gesture allows users to answer calls, stop timers, and perform other actions by tapping their thumb and index finger together.
+    Health and wellness: Includes an electrical heart sensor, third-generation optical heart sensor, Blood Oxygen app, ECG app, Cycle Tracking with retrospective ovulation estimates, and temperature sensing.
+    Safety features: Comes with Emergency SOS, International Emergency Calling, Crash Detection, and Fall Detection.
+    Connectivity: Supports GPS, cellular (optional), Wi-Fi, Bluetooth 5.3, and features a second-generation Ultra Wideband chip for Precision Finding of the iPhone 15 family.
+    Battery life: Offers up to 18 hours of typical use or 36 hours in Low Power Mode on a single charge."
+  image: "images/series_9_midnight__52347.jpg"
+- id: 52       #ID MUMBER HERE-CHANGE TO AVOID DUPLICATION
+  name: "Apple Watch Series 8 41mm , WIFI Plus GPS ,New ,Sealed"
+  category: "Smart Watche"
+  price: 469.95
+  description: "Midnight 
+Apple Watch Series 8 New
+41mm
+WIFI Plus GPS 
+Introducing the Apple Watch Series 8, your advanced health companion with even more capabilities. In addition to its existing wellness features, it now includes temperature sensing for deeper insights and Crash Detection for emergency situations. The Sleep app provides comprehensive sleep stage tracking, and the enhanced Workout app automatically detects and monitors your workouts, including blood oxygen and heart rate.
+The Sleep app goes beyond tracking time asleep, offering insights into REM, Core, and Deep sleep stages. In emergencies, the watch's Crash Detection can connect you with emergency services, sharing your location with dispatchers and notifying your contacts.
+Measure your blood oxygen easily and consistently, day and night, with the blood oxygen sensor. The durable design includes a thick front crystal, robust geometry, and IP6X dust resistance, while its WR50 water resistance makes it perfect for swimming.
+Make secure payments with Apple Pay, and leave your phone behind with the built-in GPS, precisely tracking workouts. Apple Fitness+ offers a wide range of workouts and meditations led by experts, with real-time metrics displayed on your watch.
+Please note that Blood Oxygen app measurements are for fitness and wellness purposes, not medical diagnosis. Manufacturers may update the device's OS over time, potentially providing enhanced features beyond the initial specification. Choose between Bluetooth and cellular connectivity options, depending on your needs"
+  image: "images/series_8_midnight__35346.jpg"
+
+- id: 53       #ID MUMBER HERE-CHANGE TO AVOID DUPLICATION
+  name: "Apple Watch SE , 2nd Generation ,GPS 40mm , New , Sealed"
+  category: "Smart Watche"
+  price: 299.95
+  description: "Midnight or Silver.Key features
+
+  S8 SiP chip: Same processor found in the Apple Watch Series 8, offering smooth and responsive performance.
+    Safety features: Crash Detection and Fall Detection can automatically call emergency services if you are in an accident or take a hard fall.
+    Water resistance: Water resistant up to 50 meters, making it suitable for swimming and other shallow-water activities.
+    Customizable: Supports all Apple Watch bands and features customizable watch faces.
+    Carbon neutral: Certain case and band combinations are carbon neutral. 
+Limitations
+Some key features are exclusive to the more premium Apple Watch models. 
+   No Always-On Display: The screen does not remain visible at all times, which some users prefer.
+    No ECG or blood oxygen monitoring: It lacks the advanced ECG app and Blood Oxygen sensor.
+    No temperature sensing: The temperature sensing feature for advanced cycle tracking is not included.
+    Slower charging: It does not support fast charging like the more expensive models"
+  image: "images/se_2nd_gen_black__39380.jpg"  
+
+- id: 54       #ID MUMBER HERE-CHANGE TO AVOID DUPLICATION
+  name: "Samsung Galaxy A26 ,5G, 6.7-inch 128GB, Latin Spec ,Unlocked , New Sealed"
+  category: "Phone"
+  price: 359.95
+  description: "Mint ,Black ,White .Display: 6.7-inch FHD+ Super AMOLED display with a 120Hz refresh rate for smooth  scrolling and gaming.   
+Performance: Powered by the Exynos 1380 Octa-core processor, providing a fast and smooth experience for browsing, streaming, and gaming.
+Cameras: A versatile triple-lens rear camera system includes a 50MP wide-angle with Optical Image Stabilization (OIS), an 8MP ultrawide, and a 2MP macro lens. The front camera is 13MP.
+Durability: Rated IP67 for water and dust resistance, with Gorilla Glass Victus+ on the front and back.
+Battery and charging: Features a large 5,000mAh battery for all-day use and supports 25W Super Fast Charging.
+Software support: Samsung offers a long-term commitment of six generations of Android OS updates and six years of security updates for this model.
+AI features: Includes -Awesome Intelligence- (AI) tools, such as Circle to Search with Google.
+Design: A slim and stylish design with a glossy glass back"
+  image: "images/Samsung_a26_black__96361.jpg"  
 
 
-#- id: 51      #ID MUMBER HERE-CHANGE TO AVOID DUPLICATION
-#  name: "ZTE Blade A35 6.7", 4G LTE ,64GB ,Unlocked , New ,Sealed"
-#  category: "Phone"
-#  price: 209.95
-#  description: "Green Processor- The phone is powered by a Unisoc SC9863A1 octa-core processor. According to UL Benchmarks, the Blade A35
+- id: 55      #ID MUMBER HERE-CHANGE TO AVOID DUPLICATION
+  name: "ZTE Blade A35 6.7, 4G LTE ,64GB ,Unlocked , New ,Sealed"
+  category: "Phone"
+  price: 209.95
+  description: "Green Processor- The phone is powered by a Unisoc SC9863A1 octa-core processor. According to UL Benchmarks, the Blade A35
 #achieved a PCMark Work 3.0 score of 5035, suggesting it is best suited for basic tasks. Some user reviews note that the processor may not be fast enough for more demanding apps or high-performance gaming.
-#Operating system: The ZTE Blade A35
-#runs on Android 14 Go Edition, a version of Android optimized for devices with entry-level specifications.
-#RAM and storage: It comes with 4GB of RAM and 64GB of internal storage. The storage can be expanded using a microSD card.
-#Battery: The device includes a 5,000mAh battery with support for 10W charging via a Type-C port. Reviewers praise its fantastic battery life."
-#  image: "images/zte_a35_c__53576.jpg"
+Operating system: The ZTE Blade A35
+runs on Android 14 Go Edition, a version of Android optimized for devices with entry-level specifications.
+RAM and storage: It comes with 4GB of RAM and 64GB of internal storage. The storage can be expanded using a microSD card.
+Battery: The device includes a 5,000mAh battery with support for 10W charging via a Type-C port. Reviewers praise its fantastic battery life."
+  image: "images/zte_a35_c__53576.jpg"
