@@ -237,7 +237,7 @@ Active Noise Cancelling with Smart Ambient: Hear more of what you want, less of 
 
 - id: 19       #ID MUMBER HERE-CHANGE TO AVOID DUPLICATION
   name: "Apple Watch Ultra 3, 49mm, New , Sealed"
-  category: "Smart Watche"
+  category: "Smart Watches"
   price: 899.95
   description: "Black. The Apple Watch Ultra 3 
 builds on its predecessor with a few notable improvements, including enhanced connectivity and a better display. Key features include: 
@@ -786,7 +786,7 @@ Colors: The standard iPhone 15 is available in a variety of colors, including Bl
 
 - id: 49       #ID MUMBER HERE-CHANGE TO AVOID DUPLICATION
   name: "Apple Watch Series 10 , 42mm , New , Sealed "
-  category: "Smart Watche"
+  category: "Smart Watches"
   price: 499.95
   description: "Black. Key features
 
@@ -808,7 +808,7 @@ Colors: The standard iPhone 15 is available in a variety of colors, including Bl
 
 - id: 50      #ID MUMBER HERE-CHANGE TO AVOID DUPLICATION
   name: "Apple Watch Series 9, 41mm , New , Sealed"
-  category: "Smart Watche"
+  category: "Smart Watches"
   price: 459.95
   description: "Midnight , Silver. Key features and specs
 
@@ -822,7 +822,7 @@ Colors: The standard iPhone 15 is available in a variety of colors, including Bl
   image: "images/series_9_midnight__52347.jpg"
 - id: 51       #ID MUMBER HERE-CHANGE TO AVOID DUPLICATION
   name: "Apple Watch Series 9, 45mm , New , Sealed"
-  category: "Smart Watche"
+  category: "Smart Watches"
   price: 479.95
   description: "Midnight , Silver. Key features and specs
 
@@ -836,7 +836,7 @@ Colors: The standard iPhone 15 is available in a variety of colors, including Bl
   image: "images/series_9_midnight__52347.jpg"
 - id: 52       #ID MUMBER HERE-CHANGE TO AVOID DUPLICATION
   name: "Apple Watch Series 8 41mm , WIFI Plus GPS ,New ,Sealed"
-  category: "Smart Watche"
+  category: "Smart Watches"
   price: 469.95
   description: "Midnight 
 Apple Watch Series 8 New
@@ -851,7 +851,7 @@ Please note that Blood Oxygen app measurements are for fitness and wellness purp
 
 - id: 53       #ID MUMBER HERE-CHANGE TO AVOID DUPLICATION
   name: "Apple Watch SE , 2nd Generation ,GPS 40mm , New , Sealed"
-  category: "Smart Watche"
+  category: "Smart Watches"
   price: 299.95
   description: "Midnight or Silver.Key features
 
