@@ -1107,10 +1107,10 @@ SKU
       color: "Blue"
       price: 709.95
     # minStock: true/false
-      image: "iphone-17-pro-finish-select-202509-6-9inch-deepblue_AV1.webp"
+      image: "images/iphone-17-pro-finish-select-202509-6-9inch-deepblue_AV1.webp"
     - id: 324
       color: "Orange"
       price: 709.95
     # minStock: true/false
-      image: "iphone-17-pro-finish-select-202509-6-9inch-cosmicorange_AV1.webp"
+      image: "images/iphone-17-pro-finish-select-202509-6-9inch-cosmicorange_AV1.webp"
 
