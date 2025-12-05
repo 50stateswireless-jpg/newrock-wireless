@@ -1,3 +1,4 @@
+(_layouts/default.html)
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -55,12 +56,12 @@ pluralizeCategory: (category) => {
   const exceptions = {
     'Watch': 'Watch',      // ← Keep as singular
     'Smart Watches': 'Smart Watches',  // in case you ever use this
-    'Plans': 'Plans',       // default behavior (just for clarity)
-    'Internet Services': 'Internet Services',
-    'Tablets': 'Tablets',
-    'Phones': 'Phones',
-    'Tablets': 'Tablets',
+    'Plan': 'Plans',       // default behavior (just for clarity)
+    'Phone': 'Phones',
+    'Tablet': 'Tablets',
+    'Computer': 'Computers',
     'Chargers': 'Chargers',
+    'Part': 'Parts',
     'WiFi': 'WiFi Plans',          // or just "WiFi"
     'Headsets & Earbuds': 'Headsets & Earbuds'
     
@@ -69,19 +70,31 @@ pluralizeCategory: (category) => {
   return exceptions[category] || category + 's';
 },
 toggleDescription: () => {
-  const truncated = document.getElementById('truncated-description');
-  const full = document.getElementById('full-description');
+  const description = document.getElementById('product-description');
   const button = document.getElementById('toggle-description');
 
-  if (full.classList.contains('hidden')) {
+  if (!description || !button) return;
+
+  // Check current state using data attribute
+  const currentState = description.getAttribute('data-state') || 'truncated';
+  
+  if (currentState === 'truncated') {
     // Show full description
-    full.classList.remove('hidden');
-    truncated.classList.add('hidden');
+    description.style.display = 'block';
+    description.style.webkitLineClamp = 'unset';
+    description.style.webkitBoxOrient = 'unset';
+    description.style.overflow = 'visible';
+    description.style.height = 'auto';
+    description.setAttribute('data-state', 'expanded');
     button.textContent = 'Less';
   } else {
-    // Hide full → show truncated
-    full.classList.add('hidden');
-    truncated.classList.remove('hidden');
+    // Show truncated description
+    description.style.display = '-webkit-box';
+    description.style.webkitLineClamp = '10';
+    description.style.webkitBoxOrient = 'vertical';
+    description.style.overflow = 'hidden';
+    description.style.height = 'auto';
+    description.setAttribute('data-state', 'truncated');
     button.textContent = 'More Details';
   }
 },
@@ -163,11 +176,11 @@ const bannerHtml = `
       <div class="text-white space-y-4">
         <h2 class="${bannerData.heading?.size_class || 'text-3xl md:text-5xl'} font-extrabold mb-2" 
             style="color: ${bannerData.heading?.color || '#dc2626'};">
-          ${bannerData.heading?.text || 'SHOP BLACK FRIDAY DEALS!'}
+          ${bannerData.heading?.text || 'SMARTPHONE SALES!'}
         </h2>
         <p class="${bannerData.description?.size_class || 'text-xl md:text-2xl'} font-light"
            style="color: ${bannerData.description?.color || '#ffffff'};">
-          ${bannerData.description?.text || 'hhhhhhhhhhhh'}
+          ${bannerData.description?.text || 'Upgrade Your Phone Today! Get amazing deals...'}
         </p>
         <div class="flex flex-col sm:flex-row gap-3">
           ${ctaButtonsHtml}
@@ -298,7 +311,7 @@ html = bannerHtml;
                         'Lavender': '#E7D3FF',
                         'Titanium Gray': '#8992AD',
                         'Titanium silver': '#C5CCE6',
-                        'Titanium Green': '#0D7A18'                        
+                        'Titanium Green': '#0D7A18'
                       };
                       return colorMap[colorName] || '#6B7280'; // fallback to gray
                     };
@@ -412,29 +425,21 @@ container.innerHTML = `
         ${swatchesHtml}
 
         <div class="space-y-2">
-          <!-- Full Description (Initially Hidden) -->
-          <p id="full-description" class="hidden text-gray-600 leading-relaxed">
-            ${baseProduct.description}
-            <br><br>The ${baseProduct.name}, like our other offerings comes with the consistent quality our customers have come to expect, another great product from NewRock Wireless.
-          </p>
-
-          <!-- Truncated View -->
-          <p 
-            id="truncated-description" 
-            class="text-gray-600 leading-relaxed mb-2"
-            style="-webkit-line-clamp: 10; display: -webkit-box; -webkit-box-orient: vertical; overflow: hidden; height: auto;">
-            ${baseProduct.description}
-            <br><br>The ${baseProduct.name}, like our other offerings comes with the consistent quality our customers have come to expect, another great product from NewRock Wireless.
-          </p>
-
-          <!-- "More Details" Button -->
-          <button 
-            id="toggle-description" 
-            onclick="app.toggleDescription()"
-            class="ml-auto text-sm font-medium text-nrw-red hover:text-red-700 focus:outline-none"
-            style="float: right; margin-top: -0.5rem;">
-            More Details
-          </button>
+          <!-- Description with toggle functionality -->
+          <div class="relative">
+            <p id="product-description" class="text-gray-600 leading-relaxed" data-state="truncated">
+              ${baseProduct.description}
+              <br><br>The ${baseProduct.name}, like our other offerings comes with the consistent quality our customers have come to expect, another great product from NewRock Wireless.
+            </p>
+            
+            <!-- "More Details" Button -->
+            <button 
+              id="toggle-description" 
+              onclick="app.toggleDescription()"
+              class="ml-auto text-sm font-medium text-nrw-red hover:text-red-700 focus:outline-none">
+              More Details
+            </button>
+          </div>
         </div>
 
         <div class="mt-8 flex items-center space-x-4">
