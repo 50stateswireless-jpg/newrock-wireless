@@ -1,5 +1,4 @@
 
-
 - id: 1
   name: "Verizon Home Internet 300 Mbps"
   category: "Internet Services"
@@ -2560,4 +2559,10 @@
 
     Messages via satellite7
 
-    Find
+    Find My via satellite7"
+  variants:
+    - id: 342
+      color: "Natural Titanium"
+      price: 1099.95
+    # minStock: true/false
+      image: "images/iPhone-16-Pro-128GB-E-Sim-Pre-ownednatural-titanium-hero-zoom.webp"
