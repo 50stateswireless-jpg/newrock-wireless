@@ -316,14 +316,17 @@ html = bannerHtml;
                         'Yellow': '#F59E0B',
                         'Orange': '#F97316',
                         'Ocean White': '#E7EFF5',
-                        'graphite': '#3B4042',
+                        'Graphite': '#3B4042',
                         'Yellow Beige': '#ffc566',
                         'Cosmic Orange': '#FFA500',
                         'Deep Blue': '#00008B',
                         'Lavender': '#E7D3FF',
                         'Titanium Gray': '#8992AD',
                         'Titanium silver': '#C5CCE6',
-                        'Titanium Green': '#0D7A18'
+                        'Titanium Green': '#0D7A18',
+                        'Violet': '#A42EFF',
+                        'Lime': '#d4f3c2',
+                        'Gold': '#FFBF00'
                       };
                       return colorMap[colorName] || '#6B7280'; // fallback to gray
                     };
@@ -390,7 +393,7 @@ html += `{% include affiliate-banner.html %}`;
                 style="background-color: ${
                   variant.color === 'Blue' ? '#3B82F6' :
                   variant.color === 'Black' ? '#000000' :
-                  variant.color === 'graphite' ? '#3B4042' :
+                  variant.color === 'Graphite' ? '#3B4042' :
                   variant.color === 'Silver' ? '#D9D2D9' :
                   variant.color === 'Green' ? '#10B981' :
                   variant.color === 'Ocean White' ? '#E7EFF5' :
@@ -404,6 +407,9 @@ html += `{% include affiliate-banner.html %}`;
                   variant.color === 'Titan titanium Gray' ? '#8992AD' :
                   variant.color === 'Titanium silver' ? '#C5CCE6' :
                   variant.color === 'Titanium Green' ? '#0D7A18' :
+                  variant.color === 'Violet' ? '#A42EFF' :
+                  variant.color === 'Lime' ? '#d4f3c2' :
+                  variant.color === 'Gold' ? '#FFBF00' :
                   '#cccccc'
                 }"
                 title="${variant.color}"
