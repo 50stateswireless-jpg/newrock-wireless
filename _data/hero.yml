@@ -1,5 +1,5 @@
 bg_color: "#1556d9"
-headline:
+headline: Wireless Freedom,Redfined
   text: Shop Now And Save Big On All Smartphones!
   color: "#ed0909"
   size_class: text-3xl md-text-5xl
@@ -8,7 +8,7 @@ headline:
 subtext:
   text: Upgrade Your Phone Today! - Get Amazing Deals On Samsung Galaxies, Apple
     iPhones, Google Pixels And Other Top-Brand Smartphones. Get A New Samsung
-    Galaxy S25, 128GB  Smartphone For $789.95.
+    Galaxy S25, 128GB Smartphone For $789.95, New Apple iPhone 17,256GB Smartphone For $939.95
   color: "#e2e8f0"
   size_class: text-xl md-text-2xl
   size: text-xl
