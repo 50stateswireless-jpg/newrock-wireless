@@ -7682,7 +7682,7 @@ products:
           International: Includes unlimited calls and roaming to Canada/Mexico.
           Alternatives: The provider offers other plans, including a 1GB option for $10/Mo and a $5 plan for light users.
           Activation: Known for fast, 2-second activation via the U2C Mobile app. 
-    id: 10
+  - id: 10
     price: 25
     category: Phone Plans
     name: U2C Mobile unlimited Eco Plan
