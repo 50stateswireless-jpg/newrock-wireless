@@ -5,3 +5,14 @@
 <script src="https://unpkg.com/lucide@latest"></script>
 <script src="https://www.paypal.com/sdk/js?client-id=ASN7PKGXRcDaxWEUQ9beftaFfpVjBSSwjrD441s3SX9O4FraiGhzd5Z0kO-dFpovPJre9YSnzuZpHhd4&currency=USD"></script>
 <link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
+
+<!-- Make sure to replace ENTER_MERCHANT_CLIENT_ID_HERE
+with your merchant account's client ID. You should
+use a Sandbox client ID for development and testing,
+and a production client ID for your live site.
+-->
+
+<script
+    src="https://www.paypal.com/sdk/js?client-id=ASN7PKGXRcDaxWEUQ9beftaFfpVjBSSwjrD441s3SX9O4FraiGhzd5Z0kO-dFpovPJre9YSnzuZpHhd4&components=messages"
+    data-namespace="PayPalSDK">
+</script>
