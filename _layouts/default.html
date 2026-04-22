@@ -288,12 +288,12 @@ html = bannerHtml;
                     if (min === max) {
                       const selectedVariantId = app.selectedBrowseVariants[product.id] || product.baseProduct.variants[0].id;
                       const selectedVariant = product.baseProduct.variants.find(v => v.id === selectedVariantId) || product.baseProduct.variants[0];
-                      return app.formatCurrency(selectedVariant.price) + (['Plan', 'Internet Service', 'WiFi'].includes(product.category) ? '<span class="text-sm text-gray-500 font-normal">/mo</span>' : '');
+                      return app.formatCurrency(selectedVariant.price) + (['Phone Plans', 'Internet Services', 'WiFi'].includes(product.category) ? '<span class="text-sm text-gray-500 font-normal">/mo</span>' : '');
                     } else {
                       return `${app.formatCurrency(min)} – ${app.formatCurrency(max)}`;
                     }
                   } else {
-                    return app.formatCurrency(product.price) + (['Plan', 'Internet Service', 'WiFi'].includes(product.category) ? '<span class="text-sm text-gray-500 font-normal">/mo</span>' : '');
+                    return app.formatCurrency(product.price) + (['Phone Plans', 'Internet Services', 'WiFi'].includes(product.category) ? '<span class="text-sm text-gray-500 font-normal">/mo</span>' : '');
                   }
                 })()}
               </p>
@@ -447,7 +447,7 @@ container.innerHTML = `
         <h1 class="text-4xl font-extrabold text-gray-900 mt-2 mb-2">${baseProduct.name}</h1>
         
         <p id="product-price" class="text-3xl font-extrabold nrw-text-red mb-4">
-          ${app.formatCurrency(selectedVariant.price)}${['Plan', 'Internet Service', 'WiFi'].includes(baseProduct.category) ? '<span class="text-lg text-gray-500 font-normal">/month</span>' : ''}
+          ${app.formatCurrency(selectedVariant.price)}${['Phone Plans', 'Internet Services', 'WiFi'].includes(baseProduct.category) ? '<span class="text-lg text-gray-500 font-normal">/month</span>' : ''}
         </p>
 
         ${swatchesHtml}
@@ -755,7 +755,7 @@ if (typeof paypal !== 'undefined') { // Check if SDK loaded
       if (priceElement && !priceElement.textContent.includes('–')) {
         // Only update if it's not already showing a range
         priceElement.innerHTML = app.formatCurrency(price) + 
-          (['Plan', 'Internet Service', 'WiFi'].includes(
+          (['Phone Plans', 'Internet Services', 'WiFi'].includes(
             app.rawProducts.find(p => p.id === productId)?.category
           ) ? '<span class="text-sm text-gray-500 font-normal">/mo</span>' : '');
       }
@@ -773,7 +773,7 @@ if (typeof paypal !== 'undefined') { // Check if SDK loaded
 
     const priceEl = document.querySelector('#product-price');
     if (priceEl) {
-      priceEl.innerHTML = `${app.formatCurrency(variant.price)}${baseProduct.category === 'Plan' ? '<span class="text-lg text-gray-500 font-normal">/month</span>' : ''}`;
+      priceEl.innerHTML = `${app.formatCurrency(variant.price)}${baseProduct.category === 'Phone Plans' ? '<span class="text-lg text-gray-500 font-normal">/month</span>' : ''}`;
     }
 
     const addToCartBtn = document.querySelector('#add-to-cart-btn');
