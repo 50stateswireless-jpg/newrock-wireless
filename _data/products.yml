@@ -10989,7 +10989,7 @@ products:
         color: Black
         price: 369.95
         image: images/prospeaker100.jpg
-  - id: 338
+  - id: 302
     name: "Subwoofer Party Box Speaker DR-1229 ,  New , Sealed "
     category: Wireless Speakers
     price: ""
@@ -11032,7 +11032,7 @@ products:
           Karaoke Functions: Often comes as a "trolley" speaker with wheels and a handle, making it highly portable. It typically includes wireless microphones and features like microphone priority and echo control.
           Battery: Features a built-in rechargeable battery designed for long-lasting playtime without a direct power source.
           Visuals: Integrated LED party lights and an LED display for tracking settings. 
-    id: 302
+    id: 338
     category: Wireless Speakers
     variants:
       - id: 911
