@@ -1,7 +1,8 @@
 bg_color: "#1556d9"
 headline:
   text: "Memorial Day sales
-         Shop Now And Save Big On All Smartphones!"
+
+          Shop Now And Save Big On All Smartphones!"
   color: "#ed0909"
   size_class: text-3xl md-text-5xl
   weight: font-extrabold
