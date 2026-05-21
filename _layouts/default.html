@@ -94,7 +94,7 @@ toggleDescription: () => {
   } else {
     // Show truncated description
     description.style.display = '-webkit-box';
-    description.style.webkitLineClamp = '10';
+    description.style.webkitLineClamp = '3';
     description.style.webkitBoxOrient = 'vertical';
     description.style.overflow = 'hidden';
     description.style.height = 'auto';
@@ -128,6 +128,24 @@ getProductDisplayName(productId) {
       style: 'currency',
       currency: 'USD'
     }).format(amount);
+  },
+
+  // --- NEW: Scroll to category heading just below sticky header
+  scrollToCategoryHeading: function() {
+    if (this.view !== 'home' || !this.filterCategory) return;
+    // Allow DOM to fully render images and layout
+    setTimeout(() => {
+      const categoryHeading = document.querySelector('#app-container h2.text-3xl.font-bold.text-gray-800');
+      if (!categoryHeading) return;
+      
+      const header = document.querySelector('header.sticky');
+      const headerHeight = header ? header.offsetHeight : 64;
+      const elementPosition = categoryHeading.getBoundingClientRect().top + window.pageYOffset;
+      // scroll so heading sits directly below header + 8px breathing room
+      const offsetPosition = elementPosition - headerHeight - 8;
+      
+      window.scrollTo({ top: 280, behavior: 'smooth' });
+    }, 120); // small delay ensures content is stable
   },
 
   // --- View Rendering Functions
@@ -623,6 +641,7 @@ let cartItemsHtml = app.cart.map(item => {
               <span class="text-xl font-extrabold nrw-text-red">${app.formatCurrency(total)}</span>
             </div>
 
+<div id="paypal-paylater-message" class="paypal-messaging"></div>
 <div
     data-pp-message
     data-pp-style-layout="text"
@@ -631,7 +650,7 @@ let cartItemsHtml = app.cart.map(item => {
     data-pp-amount="${total.toFixed(2)}"
     data-pp-language="">
 </div>
-          
+
           </div>
         <div class="mt-111 p-111 nrw-bg-white rounded-xl shadow-xl text-center text-green">
           <p class="text-lg font-light">Secure Checkout With PayPal, Debit Or Credit Card</p>
@@ -648,6 +667,7 @@ let cartItemsHtml = app.cart.map(item => {
     </div>
   `;
 // --- NEW: Initialize PayPal Button AFTER container.innerHTML is set ---
+
 if (typeof paypal !== 'undefined') { // Check if SDK loaded
   const paypalContainer = document.getElementById('paypal-button-container');
   if (paypalContainer) { // Check if container exists
@@ -899,7 +919,7 @@ deleteFromCart: (productId) => {
     } else if (newView === 'home' && typeof param === 'string') {
       app.filterCategory = param;
     }
-    window.scrollTo(0, 0); // 👈 Scroll to top
+    // Removed window.scrollTo(0,0) to avoid flicker and let render handle smooth positioning
     app.render();
   },
 
@@ -909,18 +929,42 @@ deleteFromCart: (productId) => {
     else if (app.view === 'cart') app.renderCart();
     else if (app.view === 'details') app.renderDetails();
 
-  // Wait for DOM paint, then scroll
-  requestAnimationFrame(() => {
+    // Smart scroll: for category filter, scroll heading below header; otherwise top
     requestAnimationFrame(() => {
-      window.scrollTo({ top: 25, behavior: 'smooth' });
+      requestAnimationFrame(() => {
+        if (app.view === 'home' && app.filterCategory) {
+          app.scrollToCategoryHeading();
+        } else if (app.view === 'details') {
+          window.scrollTo({ top: 0, behavior: 'smooth' });
+        } else {
+          window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+      });
     });
-  });
   }
 };
 window.onload = () => {
   app.render();
 };
 
+</script>
+<script>
+  // Dynamically update the price based on your cart total
+  // Adjust this selector to match your site's cart total element
+  function updatePayPalMessage() {
+    const cartTotal = document.querySelector('.cart-total-price'); // Replace with your actual price selector
+    if (cartTotal) {
+      const amount = parseFloat(cartTotal.textContent.replace(/[^0-9.]/g, ''));
+      const messageDiv = document.getElementById('paypal-messaging-container');
+      if (messageDiv && !isNaN(amount) && amount > 0) {
+        messageDiv.setAttribute('data-pp-amount', amount.toFixed(2));
+      }
+    }
+  }
+
+  // Run on load and listen for cart updates
+  document.addEventListener('DOMContentLoaded', updatePayPalMessage);
+  // If your cart updates via AJAX/JS without reload, call updatePayPalMessage() after price changes
 </script>
 <!-- Policy Modal / Inline Pages -->
 <div id="policy-overlay" class="fixed top-[70px] left-0 right-0 bottom-0 bg-white p-6 overflow-y-auto hidden z-50">
