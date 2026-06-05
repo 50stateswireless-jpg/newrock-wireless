@@ -18786,7 +18786,7 @@ products:
     category: Smart Phones & Tablets Accessories
     variants:
       - id: 501188
-        color: " Blue"
+        color: "Blue"
         image: images/17promaxsleek-blue.webp
         price: 29.95
       - color: Red
