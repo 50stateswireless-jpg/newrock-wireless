@@ -1,7 +1,7 @@
 bg_color: "#1556d9"
 bg_image:  # assets/images/2018-07-10-image-35.webp
 headline:
-  text: " The 4TH Of JULY: ULTIMATE TECH SALE!
+  text: "The 4TH Of JULY: ULTIMATE TECH SALE!"
   color: "#ed0909"
   size_class: text-3xl md-text-5xl
   weight: font-extrabold
