@@ -1,0 +1,14 @@
+title: 50StatesWirelessUSA | Shop Smartphones, Tablets, Smart watches and more online
+url: "https://drutech6.github.io"  # CHANGE THIS to your actual GitHub username
+baseurl: ""                          # CHANGE THIS: leave empty if repo name matches, else "/repo-name"
+
+# Enable Jekyll Plugins for GitHub Pages
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Standard Jekyll settings
+markdown: kramdown
+highlighter: rouge
+
