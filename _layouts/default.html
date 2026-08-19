@@ -601,10 +601,48 @@ getListingDisplayPrice: function(product) {
       }
     }
 
+    // --- ADJUSTABLE SCROLL LOGIC START ---
+    // If preserveScroll is true, do nothing (used for pagination/updates)
     if (!preserveScroll) {
-      app.scrollToCategoryHeading();
+      
+      // 1. Define your scroll distance here (in pixels)
+      // 0 = Don't scroll at all (keeps search bar in view)
+      // 50-100 = Scroll up slightly to show the title without jumping too far
+      // negative values = scroll down (e.g., -100)
+      const customScrollOffset = 0; 
+
+      // 2. Determine where to scroll
+      const header = document.querySelector('header.sticky');
+      const headerHeight = header ? header.offsetHeight : 64;
+      
+      // Calculate target: Current Position - Header Height - Custom Offset
+      // If you want it to stay exactly where it is, set target to window.scrollY
+      let targetScroll = window.scrollY;
+
+      // Only force scroll if we are filtering by a category OR if customScrollOffset is not 0
+      if (app.filterCategory || customScrollOffset !== 0) {
+        const categoryHeading = document.querySelector('#app-container h2');
+        if (categoryHeading) {
+           // Calculate the top of the h2 element
+           const elementTop = categoryHeading.getBoundingClientRect().top + window.pageYOffset;
+           // Set target: Position of h2 minus header height minus your custom offset
+           targetScroll = elementTop - headerHeight + customScrollOffset;
+        } else {
+           // If no heading (home view), just scroll to top minus header
+           targetScroll = 0 - headerHeight + customScrollOffset;
+        }
+      }
+
+      // 3. Execute the smooth scroll
+      window.scrollTo({
+        top: targetScroll,
+        behavior: 'smooth'
+      });
     }
+    // --- ADJUSTABLE SCROLL LOGIC END ---
+
   },
+
 
   renderDetails: () => {
     const container = document.getElementById('app-container');
