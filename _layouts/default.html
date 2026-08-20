@@ -441,10 +441,9 @@ getProcessedProducts: function() {
               <div class="flex justify-between items-center mb-1">
                 <span class="text-xs font-semibold uppercase text-gray-500">${product.category}</span>
                 // OLD CODE (Likely causing the /products/... issue)
-// <span class="text-xs text-gray-400 font-mono">ID: ${product.id}</span>
-
-// NEW CODE (Ensure it's treated as a number)
-<span class="text-xs text-gray-400 font-mono">ID: ${parseInt(product.id, 10)}</span>
+<span class="text-xs text-gray-500 font-mono bg-gray-100 px-2 py-1 rounded">
+  ID: ${parseInt(product.id, 10)}
+</span>
 
               </div>
               <h3 class="text-lg font-bold text-gray-900 mb-2 tooltip-trigger line-clamp-2" title="${product.name}">${product.name}</h3>
