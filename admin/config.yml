@@ -1,4 +1,2 @@
 # admin/config.yml
-fields:
-  - {label: "ID", name: "id", widget: "string"} # Keep it as string, but users must enter just the number
 

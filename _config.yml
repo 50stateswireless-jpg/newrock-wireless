@@ -12,8 +12,3 @@ plugins:
 markdown: kramdown
 highlighter: rouge
 
-collections:
-  products:
-    output: true       # Optional: Creates individual HTML pages for each product if you want them
-    layout: product    # Points to _layouts/product.html
-
