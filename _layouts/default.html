@@ -358,23 +358,28 @@ getProcessedProducts: function() {
     }
 
     list.sort((a, b) => {
-      // ENSURE ID IS TREATED AS AN INTEGER
-      const idA = parseInt(a.id, 10) || 0;
-      const idB = parseInt(b.id, 10) || 0;
+      // CRITICAL: Parse IDs as integers for correct sorting
+      const idA = parseInt(a.id, 10);
+      const idB = parseInt(b.id, 10);
+
+      // If parsing fails (NaN), treat as 0
+      const safeIdA = isNaN(idA) ? 0 : idA;
+      const safeIdB = isNaN(idB) ? 0 : idB;
 
       switch (this.sortBy) {
-        case 'id_asc': return idA - idB;
-        case 'id_desc': return idB - idA;
+        case 'id_asc': return safeIdA - safeIdB;
+        case 'id_desc': return safeIdB - safeIdA;
         case 'name_asc': return a.name.localeCompare(b.name);
         case 'name_desc': return b.name.localeCompare(a.name);
         case 'price_asc': return a.price - b.price;
         case 'price_desc': return b.price - a.price;
-        default: return idA - idB;
+        default: return safeIdA - safeIdB;
       }
     });
 
     return list;
   },
+
 
 
   renderHome: (preserveScroll = false) => {
