@@ -434,78 +434,52 @@ getProcessedProducts: function() {
 
     // NOTE: We removed the global reset here. We now reset only when needed in setView or search.
 
-    const processed = app.getProcessedProducts();
-    const totalPages = Math.ceil(processed.length / app.pageSize) || 1;
-    if (app.currentPage > totalPages) app.currentPage = 1;
-    const startIndex = (app.currentPage - 1) * app.pageSize;
-    const pageProducts = processed.slice(startIndex, startIndex + app.pageSize);
+// Inside renderHome, before the HTML string construction
+const processed = app.getProcessedProducts();
+const totalPages = Math.ceil(processed.length / app.pageSize) || 1;
+if (app.currentPage > totalPages) app.currentPage = 1;
+const startIndex = (app.currentPage - 1) * app.pageSize;
+const pageProducts = processed.slice(startIndex, startIndex + app.pageSize);
 
-    let productsHtml = '';
-    if (pageProducts.length === 0) {
-      productsHtml = `<p class="text-center text-gray-500 py-10">No products found matching your criteria.</p>`;
+// Add a cleanId property to each product object for easy display
+pageProducts.forEach(p => {
+    let rawId = p.id || '';
+    let cleanId = rawId;
+    
+    // If it's a number, use it
+    if (!isNaN(rawId) && rawId.trim() !== '') {
+        cleanId = rawId;
     } else {
-      productsHtml = `<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">`;
-      pageProducts.forEach(product => {
-        const activeVariantId = app.selectedBrowseVariants[product.id] || (product.hasVariants ? product.baseProduct.variants[0].id : null);
-        const activeVariant = product.hasVariants ? product.baseProduct.variants.find(v => v.id === activeVariantId) : null;
-        
-        const displayImage = activeVariant ? activeVariant.image : product.image;
-        const displayPriceHtml = app.getListingDisplayPrice(product);
+        // Extract last number from path like /products/chargers/335
+        const matches = rawId.match(/(\d+)/g);
+        if (matches && matches.length > 0) {
+            cleanId = matches[matches.length - 1];
+        } else {
+            cleanId = "N/A";
+        }
+    }
+    p.cleanId = cleanId;
+});
 
-        productsHtml += `
-          <div class="bg-white rounded-xl shadow-lg hover:shadow-xl transition duration-300 overflow-hidden flex flex-col" id="product-card-${product.id}">
-            <div class="h-48 bg-gray-100 flex items-center justify-center p-4">
-              <img src="${displayImage}" id="product-img-${product.id}" onerror="this.onerror=null;this.src='https://placehold.co/400x300/E5E7EB/4B5563?text=NewRock';" alt="${product.name}" class="max-h-full max-w-full object-contain rounded-lg">
-            </div>
-            <div class="p-5 flex-grow flex flex-col">
-              <div class="flex justify-between items-center mb-1">
-                <span class="text-xs font-semibold uppercase text-gray-500">${product.category}</span>
-
-<span class="text-xs text-gray-500 font-mono bg-gray-100 px-2 py-1 rounded">
-  ID: ${parseInt(product.id, 10)}
-</span>
-
-              </div>
-              <h3 class="text-lg font-bold text-gray-900 mb-2 tooltip-trigger line-clamp-2" title="${product.name}">${product.name}</h3>
-              
-              <!-- Color Swatches on Store Grid -->
-              ${product.hasVariants ? `
-                <div class="flex items-center space-x-2 my-2">
-                  ${product.baseProduct.variants.map(v => `
-                    <button 
-                      onclick="app.selectProductVariant(${product.id}, ${v.id}, '${v.color}', '${v.image}', ${v.price})" 
-                      title="${v.color}"
-                      class="w-5 h-5 rounded-full border-2 transition duration-150 ${activeVariantId === v.id ? 'border-blue-600 scale-110 ring-2 ring-blue-300' : 'border-gray-300 hover:scale-105'}"
-                      style="background-color: ${v.color_hex || v.color.toLowerCase()};">
-                    </button>
-                  `).join('')}
-                </div>
-              ` : ''}
-
-              <div class="flex items-start justify-start mb-4 mt-auto text-left">
-              <p id="product-price-${product.id}" class="product-listing-price text-xl font-extrabold text-red-600 text-left w-full">
-              ${displayPriceHtml}
-              </p>
-              </div>
-              <div class="flex space-x-2">
-                <button onclick="app.setView('details', ${product.id})" class="flex-1 px-4 py-2 border border-gray-300 text-sm font-medium rounded-lg text-gray-700 hover:bg-gray-100 transition duration-150">Details</button>
-                <button onclick="app.addToCartFromBrowse(${product.id})" class="flex-1 bg-blue-600 hover:bg-blue-700 text-white text-sm font-medium rounded-lg shadow-md hover:shadow-lg transition duration-150 flex items-center justify-center">Buy Now</button>
-              </div>
-            </div>
-          </div>
-        `;
-      });
       productsHtml += `</div>`;
 
       if (totalPages > 1) {
         // FIX: Changed app.render() to app.renderHome() in pagination buttons
-        productsHtml += `
-          <div class="flex justify-center items-center space-x-2 mt-8">
-            <button onclick="app.currentPage--; app.renderHome();" ${app.currentPage === 1 ? 'disabled' : ''} class="px-4 py-2 border rounded-lg bg-white disabled:opacity-50">Prev</button>
-            <span class="text-sm text-gray-600 font-medium">Page ${app.currentPage} of ${totalPages}</span>
-            <button onclick="app.currentPage++; app.renderHome();" ${app.currentPage === totalPages ? 'disabled' : ''} class="px-4 py-2 border rounded-lg bg-white disabled:opacity-50">Next</button>
-          </div>
-        `;
+productsHtml += `
+  <div class="bg-white rounded-xl shadow-lg hover:shadow-xl transition duration-300 overflow-hidden flex flex-col" id="product-card-${product.id}">
+    <div class="h-48 bg-gray-100 flex items-center justify-center p-4">
+      <img src="${displayImage}" id="product-img-${product.id}" onerror="this.onerror=null;this.src='https://placehold.co/400x300/E5E7EB/4B5563?text=NewRock';" alt="${product.name}" class="max-h-full max-w-full object-contain rounded-lg">
+    </div>
+    <div class="p-5 flex-grow flex flex-col">
+      <div class="flex justify-between items-center mb-1">
+        <span class="text-xs font-semibold uppercase text-gray-500">${product.category}</span>
+        <span class="text-xs text-gray-500 font-mono bg-gray-100 px-2 py-1 rounded">ID: ${product.cleanId}</span>
+      </div>
+      <!-- Rest of the card -->
+    </div>
+  </div>
+`;
+
       }
     }
 
