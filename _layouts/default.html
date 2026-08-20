@@ -358,27 +358,9 @@ getProcessedProducts: function() {
     }
 
     list.sort((a, b) => {
-      // Helper function to extract a clean numeric ID from potentially messy strings
-      const getCleanId = (item) => {
-        let rawId = item.id || '';
-        
-        // If it's already a number, return it
-        if (!isNaN(rawId) && rawId.trim() !== '') {
-          return parseInt(rawId, 10);
-        }
-        
-        // If it contains a path (e.g., "/products/chargers/335"), extract the last number
-        const matches = rawId.match(/(\d+)/g);
-        if (matches && matches.length > 0) {
-          return parseInt(matches[matches.length - 1], 10);
-        }
-        
-        // Fallback: Use a very high number or index if no ID found
-        return Number.MAX_SAFE_INTEGER; 
-      };
-
-      const idA = getCleanId(a);
-      const idB = getCleanId(b);
+      // ENSURE ID IS TREATED AS AN INTEGER
+      const idA = parseInt(a.id, 10) || 0;
+      const idB = parseInt(b.id, 10) || 0;
 
       switch (this.sortBy) {
         case 'id_asc': return idA - idB;
@@ -393,6 +375,7 @@ getProcessedProducts: function() {
 
     return list;
   },
+
 
   renderHome: (preserveScroll = false) => {
     if (!app.selectedBrowseVariants) app.selectedBrowseVariants = {};
