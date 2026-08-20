@@ -345,7 +345,7 @@ getListingDisplayPrice: function(product) {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   },
 
-  getProcessedProducts: function() {
+getProcessedProducts: function() {
     let list = [...this.products];
 
     if (this.filterCategory) {
@@ -358,19 +358,24 @@ getListingDisplayPrice: function(product) {
     }
 
     list.sort((a, b) => {
+      // ENSURE ID IS TREATED AS AN INTEGER
+      const idA = parseInt(a.id, 10) || 0;
+      const idB = parseInt(b.id, 10) || 0;
+
       switch (this.sortBy) {
-        case 'id_asc': return a.id - b.id;
-        case 'id_desc': return b.id - a.id;
+        case 'id_asc': return idA - idB;
+        case 'id_desc': return idB - idA;
         case 'name_asc': return a.name.localeCompare(b.name);
         case 'name_desc': return b.name.localeCompare(a.name);
         case 'price_asc': return a.price - b.price;
         case 'price_desc': return b.price - a.price;
-        default: return a.id - b.id;
+        default: return idA - idB;
       }
     });
 
     return list;
   },
+
 
   renderHome: (preserveScroll = false) => {
     if (!app.selectedBrowseVariants) app.selectedBrowseVariants = {};
@@ -435,7 +440,12 @@ getListingDisplayPrice: function(product) {
             <div class="p-5 flex-grow flex flex-col">
               <div class="flex justify-between items-center mb-1">
                 <span class="text-xs font-semibold uppercase text-gray-500">${product.category}</span>
-                <span class="text-xs text-gray-400 font-mono">ID: ${product.id}</span>
+                // OLD CODE (Likely causing the /products/... issue)
+// <span class="text-xs text-gray-400 font-mono">ID: ${product.id}</span>
+
+// NEW CODE (Ensure it's treated as a number)
+<span class="text-xs text-gray-400 font-mono">ID: ${parseInt(product.id, 10)}</span>
+
               </div>
               <h3 class="text-lg font-bold text-gray-900 mb-2 tooltip-trigger line-clamp-2" title="${product.name}">${product.name}</h3>
               
