@@ -4367,8 +4367,8 @@ products:
         image: images/galaxybud03.jpg
   - layout: product
     id: 604
-    category: Headsets & Earbuds
     name: ' Samsung Galaxy Buds 4 Pro , True Wireless Noise Cancellation  , New , Sealed'
+    category: Headsets & Earbuds
     image: ''
     description: >
       The Samsung Galaxy Buds4 Pro are Samsung's premier flagship wireless
@@ -5964,9 +5964,9 @@ products:
           Global Roaming: Supports international connectivity and global roaming via Wi-Fi calling. 
   - layout: product
     id: 9
-    name: U2C Mobile On The Go Plan
     category: Phone Plans
-    price: 10
+    name: U2C Mobile On The Go Plan
+    price: 11
     image: images/galaxy-a36-black-11321.jpg
     description: >
       (Phone not Included) U2CMobile ($10/mo): "On The Go +" plan includes 1GB
@@ -5980,7 +5980,7 @@ products:
 
           Data Speeds: After the 1GB allowance is used, speeds are typically reduced for the remainder of the month.
           Payment Structure: While advertised as $10/month, some carriers may require a 3-month or 12-month prepay to lock in the lowest monthly price.
-          Network: These plans usually offer 5G access via major networks. 
+          Network: These plans usually offer 5G access via major networks.
   - layout: product
     id: 100
     name: >-
@@ -6177,8 +6177,8 @@ products:
         image: images/zte_blade_a55_black__86362.jpg
   - layout: product
     id: 107
-    name: Google Pixel 7,128GB, Unlocked , New, Sealed
     category: Phones
+    name: Google Pixel 7,128GB, Unlocked , New, Sealed
     image: ''
     description: |
       The Google Pixel 7, released in 2022, is a capable smartphone featuring
@@ -6223,7 +6223,7 @@ products:
     variants:
       - id: 50741
         color: Black
-        price: 269.95
+        price: 268.95
         image: images/tecno_spark_30c_black__28400.jpg
   - layout: product
     id: 13
@@ -9911,8 +9911,8 @@ products:
         image: images/apple-iphone-16(blue-USED).jpg
   - layout: product
     id: 236
-    category: Phones
     name: Apple iPhone 16 , 256GB , E-Sim ,Unlocked , New , Sealed
+    category: Phones
     image: ''
     description: >
       The iPhone 16 is the base model in Apple's latest smartphone lineup,
@@ -25886,8 +25886,8 @@ products:
         image: images/ipad10.webp
   - layout: product
     id: 486
-    category: Tablets
     name: Apple iPad Pro ,13 inch , 1TB 16GB Ram , WiFi + Cellular (M4) New , Sealed
+    category: Tablets
     image: ''
     description: >
       The Apple iPad Pro 13-inch (M4, 2024) Wi-Fi + Cellular 1TB features the
