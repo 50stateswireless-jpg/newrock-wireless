@@ -6817,18 +6817,12 @@ products:
         image: images/160-black.jpeg
   - layout: product
     id: 161
-    name: Samsung Galaxy A17, 6GB, 128GB, Latin Spec, Unlocked, New , Sealed.
     category: Phones
+    name: Samsung Galaxy A17, 6GB, 128GB, Latin Spec, Unlocked, New , Sealed.
     image: ''
-    description: >
-      Available Colors Black, Blue.    The Samsung Galaxy A17 5G (released early
-      2026) is a budget-focused smartphone featuring a 6.7-inch 90Hz FHD+ Super
-      AMOLED display, an Exynos 1330 processor, and a 5,000 mAh battery with 25W
-      charging. It offers a 50MP main camera with OIS, 4GB/6GB RAM, and
-      128GB/256GB storage. 
-
+    description: |2
+       fully compatible with T-Mobile and its prepaid brands.    The Samsung Galaxy A17 5G (released early 2026) is a budget-focused smartphone featuring a 6.7-inch 90Hz FHD+ Super AMOLED display, an Exynos 1330 processor, and a 5,000 mAh battery with 25W charging. It offers a 50MP main camera with OIS, 4GB/6GB RAM, and 128GB/256GB storage. 
       Key Specifications:
-
       Display:
 
            6.7-inch FHD+ (1080x2340) Super AMOLED, 90Hz, 800-1150 nits peak brightness.
@@ -6850,11 +6844,11 @@ products:
     variants:
       - id: 50531
         color: Black
-        price: 259.95
+        price: 239.95
         image: images/161-black.jpeg
       - id: 50532
         color: Blue
-        price: 259.95
+        price: 239.95
         image: images/161-blue.jpeg
   - layout: product
     id: 162
